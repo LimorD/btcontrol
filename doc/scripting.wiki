@@ -1,0 +1,324 @@
+<title>Scripting</title>
+
+<h1>Scripting</h1>
+
+The greatest challenge in writing a manual about Spiel's scripting system is that there isn't much that is truly unique to document. The language is JavaScript with [https://developer.mozilla.org/en/Scripting_Java|convenience features for accessing Java]. The accessibility API used is mostly Android's [http://developer.android.com/reference/android/view/accessibility/AccessibilityEvent.html|AccessibilityEvent], and Spiel's only contribution is a bit of glue to attach functions to specific events. As such, learning how to write scripts isn't a matter of learning a few functions, but rather of understanding the API with which Spiel (and ultimately your scripts) interface.
+
+Android's accessibility APIs are still under development and are likely to change in the future. Also, there is plenty of documentation describing the JavaScript language and the fundamentals of the Rhino engine. Rather than duplicating this documentation and keeping up-to-date with changes, this manual attempts instead to link to the documentation that already exists while providing a functional introduction to the task of writing scripts for Spiel.
+
+<h2>A Whirlwind Tour of Android Accessibility</h2>
+
+The intricacies of the Android accessibility API are described exhaustively elsewhere, and should be consulted for further details. Below are a few fundamental points to know when exploring the external documentation in order to script Spiel.
+
+<h3>Events</h3>
+
+Changes in the Android interface are described by a stream of events. When focus changes, an event is sent. When text is inserted into or deleted from a text field, an event is generated. When an incoming SMS arrives, a button is clicked or a selection is scrolled, events are generated.
+
+Designing an Android accessibility solution involves intercepting these events and presenting them accordingly. This is precisely what Spiel does, having hard-coded presenters for a number of fundamental events. It is also what your scripts will do.
+
+Each event has a number of properties associated with it. Not all events use every single property, and just which properties you can expect to have meaningful values depends on the event type received.
+
+When reading the Android accessibility documentation, it isn't necessary to memorize exact event names, as these are made somewhat friendlier in Spiel scripts. Simply be aware of the following:
+
+  *  Changes in the UI generate a stream of events which are intercepted by access technologies and, quite possibly, by Spiel scripts.
+  *  Events have different properties based on their type.
+
+<h3>Classes and Packages: Widgets and Apps</h3>
+
+Two properties common to all event types are the <b>className</b> and <b>packageName</b>. Both are crucial to creating scripts.
+
+Widgets, or "views" in Android parlance, are created in classes. When an event originates from a class of a specified type, the class should be used to determine what type of feedback to provide for the given event.
+
+For instance, the class <b>android.view.Button</b> describes a button. If you receive a focus event with this as the class name, then it might make sense to speak the button's associated text or content description followed by the word "button". This is, in fact, Spiel's own hard-coded behavior for any events originating from <b>android.view.Button</b>.
+
+Android apps are contained in a single package. An event's <b>packageName</b> property indicates the package in which the view that generated it was created.
+
+The <b>packageName</b> property is useful in that it allows for scripts to provide different behaviors for views in specific applications that differ from the default. Say, for instance, that Acme Computer, Inc. releases an Android app with lots of unlabeled buttons, placing it in the package <b>com.acme.android</b>. By intercepting <b>TYPE_VIEW_FOCUSED</b> events with a <b>className</b> of <b>android.widget.Button</b> and a <b>packageName</b> of <b>com.acme.android</b>, scripts can provide spoken feedback for only these buttons, not being called for buttons in any packages other than <b>com.acme.android</b>.
+
+There are a variety of event types and properties. Consult the previously-linked AccessibilityEvent documentation for a more indepth discussion of these.
+
+<h2>Spiel Scripting Concepts</h2>
+
+Now that Android accessibility has been briefly explained, we'll move on to how these concepts are integrated into Spiel's scripting system. Spiel takes various measures to simplify the accessibility API for end users, and to secure it against malicious use or interference.
+
+<h3>Division of Labor</h3>
+
+For purposes of simplicity and security, scripts are divided on package boundaries. That is, individual scripts can only handle events from a specific package. Since apps are contained in single packages, this makes it easier to limit the reach of individual scripts, as well as to identify which script is introducing any given behavior.
+
+Scripts indicate what package they handle via their filename followed by a <b>.js</b> extension. For instance, a script that handles events in the <b>com.acme.android</b> package would be named <b>com.acme.android.js</b>.
+
+<h3>Presenters</h3>
+
+As previously stated, all events have a class and package name with which they are associated. Events are associated with presenters, which run specific code when various criteria are matched. To attach a presenter to events of a given class, the <b>forClass</b> method is called with the class name as its first argument and a Javascript object as its second.
+
+For instance, if the app in the package <b>com.acme.android</b> contains a number of unlabeled buttons, then you may wish to write a script which speaks various text when said buttons receive focus. We'll discuss the contents of such a script more indepth as this manual progresses, but such a script might look like this:
+
+<pre>
+forClass("android.widget.Button" {
+  ...
+});
+</pre>
+
+Placing this code in the file <b>com.acme.android.js</b> causes it to be triggered whenever any buttons in the <b>com.acme.android</b> app are encountered.
+
+There is a convenience shorthand with <b>forClass</b>. If the class which you are scripting resides in the package for which you are scripting, or in one of its subpackages, you can replace the package name with just a ".". For instance, again with our app in the package <b>com.acme.android</b>, you might encounter events originating from the class <b>com.acme.android.views.MyCustomWidget</b>. You can script events from this class as follows:
+
+<pre>
+forClass(".views.MyCustomWidget" {
+  ...
+});
+</pre>
+
+<h3>Events</h3>
+
+It is also necessary to specify which events from a given class and package are of interest before a script is functional. Android accessibility currently defines several event types which the API generates. Please consult its own documentation to learn when these events are generated and which properties are associated with each. As previously stated, however, the names Spiel associates with these events are slightly more human-friendly. The following event types are supported, and should map quite obviously to their Android counterparts:
+
+  *  onNotificationStateChanged
+  *  onViewClicked
+  *  onViewFocused
+  *  onViewLongClicked
+  *  onViewSelected
+  *  onViewTextChanged
+  *  onWindowStateChanged
+
+Each of these events is the name of a Javascript function which accepts the event as its first argument, and the activity name as its second. Since arguments are optional in Javascript, if the event or activity is not needed, then the function can be declared with a truncated argument list. These functions are declared in the Javascript object passed to the <b>forClass</b> function demonstrated above.
+
+Spiel introduces a special presenter, <b>byDefault</b>. This is a catch-all for events which don't yet exist but may be added in future Android versions. It is also a convenient presenter for default behavior that transcends event types.
+
+Multiple presenters can be associated with a single package and/or class. As such, these functions need to indicate if they provide all handling necessary for a given event, or if processing should continue further. They do so by returning <b>true</b> to indicate that handling should stop, or <b>false</b> if it should continue.
+
+How presenters are matched is a somewhat complex subject. As a script developer, all you need know is that the presenters created in your scripts will be matched before the more generic presenters defined in Spiel. As such, in most instances you'll wish to return <b>false</b> from your presenter functions, letting default presenters run in addition to your own.
+
+Building on our previous example where we wish to provide speech feedback for unlabeled buttons, we are interested in the <b>onViewFocused</b> event for buttons in the app's package. Since the inaccessible behavior results from focus moving to buttons with no accessible text, it makes sense that we wish to modify how such buttons are presented when they receive focus. We'll discuss how to modify the presentation later, but the below code intercepts the focus events and simply passes them on unchanged.
+
+<pre>
+forClass("android.widget.Button" {
+  onViewFocused: function(event) {
+    return false;
+  }
+});
+</pre>
+
+<h3>A Word on Internationalization</h3>
+
+If your scripts become widely popular, it is entirely possible that they will be installed by users who either don't speak your language, or who speak a country or cultural variant. As such, you should internationalize any spoken strings within your script to make translation to other languages and dialects possible.
+
+Spiel's scripting subsystem tries to make internationalization as simple as possible by offering a variety of ways to set language strings, and by using sensible defaults and fallback behaviors. Strings are assigned to symbolic names, which are retrieved whenever you wish to speak them. The functions to assign strings are as follows:
+
+<pre>
+setString(name, value)
+setString(name, language, value)
+setString(name, language, country, value)
+setString(name, language, country, variant, value)
+</pre>
+
+To retrieve a string for speaking, simply call:
+
+<pre>
+getString(name)
+</pre>
+
+String names are first matched against language, country and variant, then against language and country, then simply against language. If none matches, the default is used.
+
+We'll use English as an example, as I am regrettably ignorant of most other languages. Say, for instance, you wish to speak the string "Color". All that is needed for this is to call:
+
+<pre>
+setString("color", "Color)
+</pre>
+
+Then, if you wish to retrieve this string later, simply call:
+
+<pre>
+getString("color")
+</pre>
+
+And "Color" will be returned.
+
+Now, say you're targetting a UK English audience. Simply add this:
+
+<pre>
+setString("color", "en", "UK", "Colour")
+</pre>
+
+Now, devices with a UK English locale receive the string "Colour" when calling:
+
+<pre>
+getString("color")
+</pre>
+
+All others simply receive "Color". To translate to other languages, simply copy the lines, calling the function with your specific language, country and variant filled in to whatever level of detail you require.
+
+<h3>Handling Events</h3>
+
+All of the power of Javascript is available to you when handling events. However, Spiel exposes a few convenience functions for speaking and interrupting text, documented below.
+
+<h4>speak()</h4>
+
+This is the most commonly-called function used, as its name implies, for speaking text. It accepts the following arguments:
+
+  *  Text to be spoken
+  *  Optional boolean, set to <b>true</b> if the text should interrupt
+
+In general, you shouldn't explicitly use the second argument, as Spiel's event handling intelligently interrupts based on a number of complex factors. The option to use it is available for advanced use, in instances where it is necessary.
+
+<h4>speakNotification()</h4>
+
+Speaking of notifications is more complex than is simply speaking strings. The screen or ringer may be off, and the user may have enabled the preference to not speak notifications in those instances. This function honors these preferences, and should be used whenever your script needs to speak something incidental to its operation not in response to a user's direct action. For example, if your script speaks an incoming SMS, then it should use this method as to not do so when the user prefers not to hear it. The function accepts a single argument:
+
+  *  Notification text to be spoken
+
+<h4>nextShouldNotInterrupt()</h4>
+
+As previously mentioned, the method by which Spiel determines whether text should interrupt is somewhat complex. It generally makes more sense to tell Spiel that a given utterance should <b>not</b> interrupt speech rather than that it should.
+
+For instance, say you wish to speak a piece of text, then let event delegation continue on to core presenters. If you simply speak a string and return, Spiel will likely interrupt whatever you've spoken with its own handling of the event. If you wish to indicate that any speech generated by future presenters should not interrupt your own, however, calling <b>nextShouldNotInterrupt()</b> will achieve this in almost every case.
+
+This is why scripts generally shouldn't explicitly interrupt speech without a good reason. While it is guaranteed that scripted presenters will be run before application presenters, the order in which they are run is not guaranteed. Explicitly interrupting speech disregards the needs of previously-run scripts.
+
+<h3>Event Properties</h3>
+
+As the Android documentation demonstrates, each event has a number of properties. Each event includes a unique combination of properties relevant to its type, and just which types include which properties will not be duplicated here.
+
+Spiel's scripting layer defines somewhat more convenient access to these properties, however. For instance, while Java-based APIs must access an event's <b>text</b> property by calling its <b>getText()</b> method, Spiel scripts need only refer to the <b>text</b> property to access the same information.
+
+Completing the above example, let's say that the events for the unlabeled buttons in <b>com.acme.android</b> have <g>currentItemIndex</b> properties of 4, 5 and 6. Building on the functions described in the previous sections, and incorporating internationalization, we might complete our script as follows:
+
+<pre>
+setString("newAccount", "New account");
+setString("existingAccount", "Existing account");
+setString("support", "Support");
+
+forClass("android.widget.Button" {
+  onViewFocused: function(event) {
+    if(event.currentItemIndex == 4)
+      speak(getString("newAccount"));
+    else if(event.currentItemIndex == 5)
+      speak(getString("existingAccount"));
+    else if(event.currentItemIndex == 6)
+      speak(getString("support"));
+    nextShouldNotInterrupt();
+    return false;
+  }
+});
+</pre>
+
+Here we do several things. As previously described, we intercept events of the given type from the package specified by the filename and the class specified in the script. In the function, we check the <b>currentItemIndex</b> property of the buttons, speaking a string for each which assumedly corresponds to some inaccessible label text. We then specify that the next presenter should not interrupt speech and return false, stating that processing should continue. Processing then continues, eventually reaching the default button presenter which speaks the string "Button". Because we have explicitly asked that the next presenter not interrupt speech, our existing speech is allowed to continue and "Button" is queued. Had we not called <b>nextShouldNotInterrupt()</b>, the string "Button" would have interrupted our attempts to speak more accessible text, and our script would seem to have no effect.
+
+<h3>Other Functions and Properties</h3>
+
+Several additional functions and properties are available to help craft custom scripts tailored to specific versions of Android and Spiel.
+
+<h4>log()</h4>
+
+Logging is an incredibly useful debugging tool. Sometimes it is helpful to know the exact class or content of a variable at runtime, or to determine if a given conditional path is triggered at the correct time. The <b>log()</b> function helps with this by inserting a string into Spiel's logcat output, prefixed by the package name of the currently-executing script. For instance, calling the function like so:
+
+<pre>
+log("Here.")
+</pre>
+
+from a presenter in the script for the package <b>com.acme.android</b> will place the message "Here." into your device logs, prefixed by "com.acme.android".
+
+<h4>SPIEL_VERSION_CODE</h4>
+
+It is likely that newer versions of Spiel will introduce new constructs. As such, it may be necessary to code scripts that behave differently based on which version of Spiel is running them.
+
+<b>SPIEL_VERSION_CODE</b> contains an integer value that corresponds to a given Spiel version, and will be incremented for each new release. At present, the following values are supported:
+
+<table>
+  <th>
+    <td>Spiel version</td><td>Code</td>
+  </th>
+  <tr>
+    <td>1.0.0</td><td>3</td>
+    <td>1.0.1</td><td>4</td>
+  </tr>
+</table>
+
+<h4>SPIEL_VERSION_NAME</h4>
+
+This variable contains the human-readable name for the current version of Spiel. Note that this is only provided for display purposes. Any version-dependent logic should use <b>SPIEL_VERSION_CODE</b> instead.
+
+<h4>ANDROID_PLATFORM_VERSION</h4>
+
+It is likely that Android's behavior will change over time, with new accessibility added and previously-working accessibility broken. As such, it may become necessary to check the Android platform version in Spiel scripts, conditionally handling events or introducing new code paths based on the currently-running version. This can be checked via the <b>ANDROID_PLATFORM_VERSION</b> property, which corresponds to the SDK version of Android running on the user's device.
+
+<h3>Script Locations</h3>
+
+Spiel checks for scripts in a number of locations, each with a very specific purpose. If a script read later in the loading process defines a presenter with the same package and class name as one encountered earlier, that presenter will override the one defined earlier. presenters are read from the following locations:
+
+  *  The assets directory in the Spiel package. This is only used to define a few core scripts whose contents should never be changed or overridden.
+  *  Spiel's internal scripts directory. Here reside various scripts received from others via the Spiel Bazaar.
+  *  The Spiel scripts directory on your SD card, typically <b>/spiel/scripts</b>. Here is where your own scripts should be developed before being shared with others via the Spiel Bazaar.
+
+The main point to keep in mind is that scripts you develop or copy will always override those provided by others, or by Spiel itself. This provides you as the user with a great deal of power, but as any comic book fan knows, with great power comes great responsibility. Be aware of the scripts located on your SD card, and be sure that they don't redefine core functions, or other presenters you may not wish to be replaced.
+
+<h3>Viewing and Scripting Events</h3>
+
+While knowing how to script is one thing, knowing which events to intercept (or indeed, if any are available to intercept) is another matter entirely. Fortunately, Spiel offers several convenience features to make scripting easier. To enable these, navigate to Spiel's preferences, select <b>Scripting and debugging</b>, then enable <b>Display most recent accessibility events</b>.
+
+When this is done, a tab labeled <b>Events</b> starts populating with the 50 most recently-generated accessibility events. This makes it fairly easy to determine whether a given action is raising an event and, if so, whether that event includes properties that might be used to script it.
+
+By long-pressing an event from this list, you are presented with the option to output a script template to intercept it. The template is saved to the SD card in the scripts directory. By default, the script merely passes the event on for further handling. However, all of the event's properties are left as a comment in the script to help determine what to match. Note that this support is only intended for quick prototyping. If you use it to output several templates for a single event type, it is best to merge the presenters into a single <b>forClass()</b> block.
+
+Events are also sent to the device log. By using the Android SDK and running the following command:
+
+<pre>
+adb logcat
+</pre>
+
+you'll receive a great deal of information on the events that apps are generating.
+
+<h2>Practical Examples</h2>
+
+Contrivances are one thing, but actual examples are usually quite helpful. Below are annotated scripts from Spiel, along with explanations of the problems they solve.
+
+Note that all of these scripts are available on the Bazaar, and should be made available to any devices running the apps they augment. While these instructions invite you to place the code on your SD card, this is only for experimental purposes and isn't needed should you want the features they offer.
+
+<h3>Simple: Launcher on 2.1 and Below</h3>
+
+The Android 2.1 launcher includes an unlabeled control that apparently looks like a drawer handle. Expanding this handle makes your entire list of apps available.
+
+Two problems exist here. First, the handle itself is unlabeled. Next, clicking on the handle gives no accessible indication that anything has happened. You aren't taken to a new screen or given any indication as to what has changed.
+
+The below script solves both problems. First, it adds code that speaks the string "Expanded" when the handle is clicked. It then intercepts focus events to speak "Drawer handle" when this widget receives focus. Notice we use the dot shorthand for the <b>HandleView</b> class. Since it resides in the package for which the script was written, <b>com.android.launcher</b>, this is a nice convenience. The following code can be placed in <b>com.android.launcher.js</b> in the <b>/spiel/scripts</b> directory on your SD card.
+
+<pre>
+setString("drawerHandle", "Drawer handle");
+setString("expanded", "Expanded");
+
+forClass(".HandleView", {
+
+  onViewClicked: function() {
+    speak(getString("expanded"));
+    return true;
+  },
+
+  onViewFocused: function() {
+    speak(getString("drawerHandle"));
+    return true;
+  }
+
+});
+</pre>
+
+<h3>Complex: Dialer Entry Bug</h3>
+
+Android has an annoying bug which surfaces when entering numbers into the dialer. When hyphens are automatically inserted, speech becomes far more spammy than it should, and you'll hear those in preference to the text you enter.
+
+We can't completely fix this issue in Spiel, since the contacts app needs to be modified not to raise spurious AccessibilityEvents. It hasn't yet in over a year, so in the meantime you can use this script to lessen the spam somewhat. This code can be placed in <b>com.android.contacts.js</b> in the <b>/spiel/scripts</b> directory on your SD card.
+
+<pre>
+forClass("android.widget.EditText", {
+
+  // Fix issue where inserted hyphens interrupt speech.
+  onViewTextChanged: function(e) {
+    if(this.lastText == e.text.get(0).toString().replace("-", ""))
+      return true;
+    this.lastText = e.text.get(0).toString().replace("-", "");
+    return false;
+  }
+
+});
+</pre>
+
+The above code is slightly more complex. Basically, we determine if the text of the current event with hyphens removed equals that of the last event received by this presenter. If it does then we return true, silently swallowing the event without presenting it. Otherwise, it removes hyphens from the text of the current event and saves that as the last received text, passing the event further along the chain. The result is that hyphens will be spoken in response to some number entries, but they won't be spoken multiple times, as would occur if this script was not installed.

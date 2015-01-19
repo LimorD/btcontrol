@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+<string name="appName">Spiel</string>
+
+<!-- Initial welcome message-->
+<string name="welcomeMsg">Vítá vás Spiel!</string>
+
+<!-- On/off and other alerts -->
+<string name="spielOn">Spiel je zapnutý</string>
+<string name="spielOff">Spiel je vypnutý</string>
+<string name="screenOff">Displej je vypnutý</string>
+<string name="unlocked">Odemknuto</string>
+<string name="ringerOff">Vyzvánění vypnuto</string>
+<string name="ringerOn">Vyzvánění zapnuto</string>
+
+<!-- View names and actions -->
+<string name="button">tlačítko</string>
+<string name="labeledButton">%1$s: tlačítko</string>
+<string name="checkbox">%1$s: zaškrtávací políčko</string>
+<string name="checked">zaškrtnuto</string>
+<string name="editText">%1$s: upravit text</string>
+<string name="emptyList">prázdný seznam</string>
+<string name="image">%1$s: obrázek</string>
+<string name="labeledImage">%1$s: obrázek</string>
+<string name="listItem">%1$s z %2$s</string>
+<string name="menu">menu</string>
+<string name="notChecked">nezaškrtnuto</string>
+<string name="password">%1$s: heslo</string>
+<string name="radioButton">přepínač</string>
+
+<!-- Preferences -->
+<string name="speechTitle">řeč</string>
+<string name="speechEngineTitle">Nástroj řeči</string>
+<string name="rateScaleTitle">Rychlost</string>
+<string name="rateScaleSummary">Faktor, kterým mohou být nastaveny základní hodnoty rychlosti</string>
+<string name="pitchScaleTitle">Výška</string>
+<string name="pitchScaleSummary">Faktor, kterým mohou být nastaveny základní hodnoty výšky</string>
+<string name="echoByCharTitle">Odezva po znacích</string>
+<string name="echoByWordTitle">Odezva po slovech</string>
+<string name="speakNotificationsWhenScreenOffTitle">Hlásit oznámení i při vypnutém displeji</string>
+<string name="useBluetoothSCOTitle">Použít Bluetooth SCO</string>
+<string name="useBluetoothSCOSummary">Přesměrování zvuku hovoru do Bluetooth SCO sluchátek (experimentální!)</string>
+<string name="managePunctuationSpeechTitle">Řídit vyslovování interpunkčních znamének</string>
+<string name="managePunctuationSpeechSummary">Přiřadit Spielu výslovnost nedefinovaných interpunkčních znamének</string>
+<string name="textToSpeechTitle">Nastavení převodu textu na řeč</string>
+<string name="textToSpeechSummary">Nastavit rozšířené vlastnosti systému TTS</string>
+
+<string name="alertsTitle">Upozornění</string>
+<string name="talkingCallerIDTitle">Hlasová identifikace volajícího</string>
+<string name="talkingCallerIDSummary">Opakovaně oznamovat podrobnosti o volajícím u příchozích hovorů</string>
+<string name="voicemailAlertsTitle">Upozornění na hlasovou poštu</string>
+<string name="voicemailAlertsSummary">Opakovaně oznamovat dostupnost nové hlasové pošty</string>
+
+<string name="debuggingTitle">Ladění</string>
+<string name="sendBacktracesTitle">Odeslat report, když Spiel havaruje</string>
+<string name="sendBacktracesSummary">Automaticky odesílat anonimní zprávy o chybě vývojáři, kdykoli Spiel havaruje (vyžaduje restart)</string>
+
+<string name="events">Události</string>
+
+<string name="createScriptTemplate">Vytvořit šablonu skriptu</string>
+
+<string name="scripts">Skripty</string>
+
+<!-- Script context menu -->
+<string name="delete">Smazat</string>
+
+<string name="confirmDelete">Jste si jisti, že chcete smazat skript pro balíček %1$s?</string>
+
+<!-- Menu items -->
+<string name="refresh">Obnovit</string>
+
+<!-- Action names and related -->
+
+<string name="createScriptTemplateAction">Vytvořit šablonu skriptu pro nejnovější událost přístupnosti</string>
+<string name="templateCreated">šablona vytvořena v %1$s.</string>
+<string name="stopSpeech">Zastavit mluvení</string>
+<string name="toggleSpiel">Určuje, zda je Spiel povolen</string>
+
+<!-- Punctuation and other speech-related strings -->
+
+<string name="blank">Prázdný</string>
+<string name="cap">velké %1$s</string>
+<string name="exclamation">vykřičník</string>
+<string name="at">zavináč</string>
+<string name="pound">libra</string>
+<string name="dollar">dolar</string>
+<string name="percent">procent</string>
+<string name="caret">stříška</string>
+<string name="ampersand">ampersand</string>
+<string name="asterisk">hvězdička</string>
+<string name="leftParen">levá závorka</string>
+<string name="rightParen">pravá závorka</string>
+<string name="underscore">podtržení</string>
+<string name="space">mezera</string>
+<string name="period">tečka</string>
+<string name="comma">čárka</string>
+<string name="lessThan">menší než</string>
+<string name="greaterThan">větší než</string>
+<string name="slash">lomeno</string>
+<string name="backslash">obrácené lomítko</string>
+<string name="questionMark">otazník</string>
+<string name="quote">uvozovky</string>
+<string name="apostrophe">apostrof</string>
+<string name="semiColon">středník</string>
+<string name="colon">dvojtečka</string>
+<string name="dash">pomlčka</string>
+<string name="plus">plus</string>
+<string name="newline">Nový řádek</string>
+
+<string name="landscape">Na šířku</string>
+  <string name="portrait">Na výšku</string>
+  </resources>

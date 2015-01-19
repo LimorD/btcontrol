@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+<!-- Initial welcome message-->
+<string name="welcomeMsg">Bienvenido a Spiel!</string>
+
+<!-- On/off and other alerts -->
+<string name="spielOn">Spiel activado.</string>
+<string name="spielOff">Spiel desactivado.</string>
+<string name="screenOff">Pantalla apagada</string>
+<string name="unlocked">Desbloqueado</string>
+<string name="ringerOff">Timbre apagado</string>
+<string name="ringerOn">Timbre encendido</string>
+
+<!-- View names and actions -->
+<string name="button">botón de %1$s</string>
+<string name="labeledButton">%1$s botón</string>
+<string name="checkbox">%1$s: casilla de verificación</string>
+<string name="checked">verificado</string>
+<string name="editText">%1$s: editar texto</string>
+<string name="emptyList">lista vacía</string>
+<string name="image">imagen de %1$s</string>
+<string name="listItem">%1$s de %2$s</string>
+<string name="menu">menú</string>
+<string name="notChecked">no verificado</string>
+<string name="password">%1$s: contraseña</string>
+<string name="radioButton">botón radio</string>
+
+<!-- Preferences -->
+<string name="speechTitle">Voz</string>
+<string name="speechEngineTitle">Motor del sintetizador de voz</string>
+<string name="rateScaleTitle">Escala de velocidad</string>
+<string name="rateScaleSummary">Factor por el cual se ajusta la velocidad predeterminada</string>
+<string name="pitchScaleTitle">Escala de tono del sintetizador</string>
+<string name="pitchScaleSummary">Factor por el cual se ajusta el tono predeterminado</string>
+<string name="echoByCharTitle">Pronunciar caracteres</string>
+<string name="echoByWordTitle">Pronunciar palabras</string>
+<string name="speakNotificationsWhenScreenOffTitle">Anunciar notificaciones aunque la pantalla esté bloqueada</string>
+<string name="useBluetoothSCOTitle">Usar Bluetooth SCO</string>
+<string name="useBluetoothSCOSummary">Enviar sonido que no corresponde a llamadas al auricular Bluetooth SCO (experimental!)</string>
+<string name="managePunctuationSpeechTitle">Gestionar la pronunciación de puntuación</string>
+<string name="managePunctuationSpeechSummary">Delegar a Spiel la pronunciación de ciertos signos de puntuación no gestionados</string>
+<string name="textToSpeechTitle">Ajustes texto a voz</string>
+<string name="textToSpeechSummary">Ajustar propriedades  texto a voz del sistema</string>
+
+<string name="alertsTitle">Alertas</string>
+<string name="talkingCallerIDTitle">Identificador de llamadas parlante</string>
+<string name="talkingCallerIDSummary">Repetir detalles del identificador para llamadas entrantes</string>
+<string name="voicemailAlertsTitle">Alertas de correo de voz</string>
+<string name="voicemailAlertsSummary">Repetir la disponibilidad de Nuevas llamadas en el buzón</string>
+
+<string name="debuggingTitle">Depuración</string>
+<string name="sendBacktracesTitle">Enviar trazas cuando Spiel falla</string>
+<string name="sendBacktracesSummary">Enviar informe de error automática y anonímamente al desarrollador cada vez que Spiel falle (se necesita reiniciar).</string>
+
+<string name="events">Eventos</string>
+
+<string name="createScriptTemplate">Crear plantilla de script</string>
+
+<string name="scripts">Script</string>
+
+<!-- Script context menu -->
+<string name="delete">Eliminar</string>
+
+<string name="confirmDelete">¿Está seguro que desea eliminar el script de package %1$s?</string>
+
+<!-- Menu items -->
+<string name="refresh">Actualizar pantalla</string>
+
+<!-- Action names and related -->
+
+<string name="createScriptTemplateAction">Crear  plantilla de script para el último evento de accesibilidad</string>
+<string name="templateCreated">Plantilla creada en %1$s.</string>
+<string name="stopSpeech">Parar el sintetizador</string>
+<string name="toggleSpiel">Conmutar entre activación y desactivación de Spiel</string>
+
+<!-- Punctuation and other speech-related strings -->
+
+<string name="blank">en blanco</string>
+<string name="cap">%1$s mayús</string>
+<string name="exclamation">admiración</string>
+<string name="at">arroba</string>
+<string name="pound">número</string>
+<string name="dollar">dólar</string>
+<string name="percent">porciento</string>
+<string name="caret">acento circunflejo</string>
+<string name="ampersand">y</string>
+<string name="asterisk">asterisco</string>
+<string name="leftParen">abre paréntesis</string>
+<string name="rightParen">cierra paréntesis</string>
+<string name="underscore">guión bajo</string>
+<string name="space">espacio</string>
+<string name="period">punto</string>
+<string name="comma">coma</string>
+<string name="lessThan">menor que</string>
+<string name="greaterThan">mayor que</string>
+<string name="slash">barra</string>
+<string name="backslash">contrabarra</string>
+<string name="questionMark">interrogación</string>
+<string name="quote">comillas</string>
+<string name="apostrophe">apóstrofo</string>
+<string name="semiColon">punto y coma</string>
+<string name="colon">dos puntos</string>
+<string name="plus">Mas</string>
+<string name="newline">Linea Nueva</string>
+
+</resources>

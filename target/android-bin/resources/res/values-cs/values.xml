@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/user/Desktop/spiel/src/main/res/values-cs/strings.xml -->
+    <eat-comment />
+
+    <string name="alertsTitle">Upozornění</string>
+    <string name="ampersand">ampersand</string>
+    <string name="apostrophe">apostrof</string>
+    <string name="appName">Spiel</string>
+    <string name="asterisk">hvězdička</string>
+    <string name="at">zavináč</string>
+    <string name="backslash">obrácené lomítko</string>
+    <string name="blank">Prázdný</string>
+    <string name="button">tlačítko</string>
+    <string name="cap">velké %1$s</string>
+    <string name="caret">stříška</string>
+    <string name="checkbox">%1$s: zaškrtávací políčko</string>
+    <string name="checked">zaškrtnuto</string>
+    <string name="colon">dvojtečka</string>
+    <string name="comma">čárka</string>
+    <string name="confirmDelete">Jste si jisti, že chcete smazat skript pro balíček %1$s?</string>
+    <string name="createScriptTemplate">Vytvořit šablonu skriptu</string>
+    <string name="createScriptTemplateAction">Vytvořit šablonu skriptu pro nejnovější událost přístupnosti</string>
+    <string name="dash">pomlčka</string>
+    <string name="debuggingTitle">Ladění</string>
+    <string name="delete">Smazat</string>
+    <string name="dollar">dolar</string>
+    <string name="echoByCharTitle">Odezva po znacích</string>
+    <string name="echoByWordTitle">Odezva po slovech</string>
+    <string name="editText">%1$s: upravit text</string>
+    <string name="emptyList">prázdný seznam</string>
+    <string name="events">Události</string>
+    <string name="exclamation">vykřičník</string>
+    <string name="greaterThan">větší než</string>
+    <string name="image">%1$s: obrázek</string>
+    <string name="labeledButton">%1$s: tlačítko</string>
+    <string name="labeledImage">%1$s: obrázek</string>
+    <string name="landscape">Na šířku</string>
+    <string name="leftParen">levá závorka</string>
+    <string name="lessThan">menší než</string>
+    <string name="listItem">%1$s z %2$s</string>
+    <string name="managePunctuationSpeechSummary">Přiřadit Spielu výslovnost nedefinovaných interpunkčních znamének</string>
+    <string name="managePunctuationSpeechTitle">Řídit vyslovování interpunkčních znamének</string>
+    <string name="menu">menu</string>
+    <string name="newline">Nový řádek</string>
+    <string name="notChecked">nezaškrtnuto</string>
+    <string name="password">%1$s: heslo</string>
+    <string name="percent">procent</string>
+    <string name="period">tečka</string>
+    <string name="pitchScaleSummary">Faktor, kterým mohou být nastaveny základní hodnoty výšky</string>
+    <string name="pitchScaleTitle">Výška</string>
+    <string name="plus">plus</string>
+    <string name="portrait">Na výšku</string>
+    <string name="pound">libra</string>
+    <string name="questionMark">otazník</string>
+    <string name="quote">uvozovky</string>
+    <string name="radioButton">přepínač</string>
+    <string name="rateScaleSummary">Faktor, kterým mohou být nastaveny základní hodnoty rychlosti</string>
+    <string name="rateScaleTitle">Rychlost</string>
+    <string name="refresh">Obnovit</string>
+    <string name="rightParen">pravá závorka</string>
+    <string name="ringerOff">Vyzvánění vypnuto</string>
+    <string name="ringerOn">Vyzvánění zapnuto</string>
+    <string name="screenOff">Displej je vypnutý</string>
+    <string name="scripts">Skripty</string>
+    <string name="semiColon">středník</string>
+    <string name="sendBacktracesSummary">Automaticky odesílat anonimní zprávy o chybě vývojáři, kdykoli Spiel havaruje (vyžaduje restart)</string>
+    <string name="sendBacktracesTitle">Odeslat report, když Spiel havaruje</string>
+    <string name="slash">lomeno</string>
+    <string name="space">mezera</string>
+    <string name="speakNotificationsWhenScreenOffTitle">Hlásit oznámení i při vypnutém displeji</string>
+    <string name="speechEngineTitle">Nástroj řeči</string>
+    <string name="speechTitle">řeč</string>
+    <string name="spielOff">Spiel je vypnutý</string>
+    <string name="spielOn">Spiel je zapnutý</string>
+    <string name="stopSpeech">Zastavit mluvení</string>
+    <string name="talkingCallerIDSummary">Opakovaně oznamovat podrobnosti o volajícím u příchozích hovorů</string>
+    <string name="talkingCallerIDTitle">Hlasová identifikace volajícího</string>
+    <string name="templateCreated">šablona vytvořena v %1$s.</string>
+    <string name="textToSpeechSummary">Nastavit rozšířené vlastnosti systému TTS</string>
+    <string name="textToSpeechTitle">Nastavení převodu textu na řeč</string>
+    <string name="toggleSpiel">Určuje, zda je Spiel povolen</string>
+    <string name="underscore">podtržení</string>
+    <string name="unlocked">Odemknuto</string>
+    <string name="useBluetoothSCOSummary">Přesměrování zvuku hovoru do Bluetooth SCO sluchátek (experimentální!)</string>
+    <string name="useBluetoothSCOTitle">Použít Bluetooth SCO</string>
+    <string name="voicemailAlertsSummary">Opakovaně oznamovat dostupnost nové hlasové pošty</string>
+    <string name="voicemailAlertsTitle">Upozornění na hlasovou poštu</string>
+    <string name="welcomeMsg">Vítá vás Spiel!</string>
+
+</resources>

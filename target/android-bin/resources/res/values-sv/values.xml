@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/user/Desktop/spiel/src/main/res/values-sv/strings.xml -->
+    <eat-comment />
+
+    <string name="alertsTitle">Varningar</string>
+    <string name="ampersand">och</string>
+    <string name="apostrophe">apostrof</string>
+    <string name="asterisk">stjärna</string>
+    <string name="at">snabela</string>
+    <string name="backslash">bakåtsnedsträck</string>
+    <string name="blank">blank</string>
+    <string name="button">knapp</string>
+    <string name="cap">stor %1$s</string>
+    <string name="checkbox">%1$s: kryssruta</string>
+    <string name="checked">kryssad</string>
+    <string name="colon">kolon</string>
+    <string name="comma">komma</string>
+    <string name="confirmDelete">Är du säker på att du vill ta bort scriptet för paketet %1$s?</string>
+    <string name="dash">bindesträck</string>
+    <string name="delete">Radera</string>
+    <string name="dollar">dollar</string>
+    <string name="echoByCharTitle">Skriveko Tecken</string>
+    <string name="echoByWordTitle">Skriveko Ord</string>
+    <string name="emptyList">tom lista</string>
+    <string name="events">Händelser</string>
+    <string name="exclamation">utropstecken</string>
+    <string name="greaterThan">större än</string>
+    <string name="image">%1$s: bild</string>
+    <string name="leftParen">vänsterparentes</string>
+    <string name="lessThan">mindre än</string>
+    <string name="managePunctuationSpeechTitle">Hantera interpunktionsuppläsning</string>
+    <string name="menu">meny</string>
+    <string name="newline">ny rad</string>
+    <string name="notChecked">ej kryssad</string>
+    <string name="onShakeSummary">Knyta en funktion som utförs när enheten skakas</string>
+    <string name="onShakeTitle">Vid skakning</string>
+    <string name="password">%1$s: lösenord</string>
+    <string name="percent">procent</string>
+    <string name="period">punkt</string>
+    <string name="pitchScaleTitle">Tonläge.</string>
+    <string name="plus">plus</string>
+    <string name="pound">pund</string>
+    <string name="questionMark">frågetecken</string>
+    <string name="quote">citationstecken</string>
+    <string name="radioButton">radioknapp</string>
+    <string name="rateScaleTitle">Hastighet</string>
+    <string name="refresh">Uppdatera</string>
+    <string name="rightParen">högerparentes</string>
+    <string name="ringerOff">Ringer av</string>
+    <string name="ringerOn">Ringer på</string>
+    <string name="screenOff">Skärm släckt.</string>
+    <string name="scripts">Scripts</string>
+    <string name="semiColon">semikolon</string>
+    <string name="sendBacktracesSummary">Skicka automatiskt anonyma felrapporter till utvecklaren när Spiel kraschar (kräver omstart)</string>
+    <string name="slash">snedsträck</string>
+    <string name="space">mellanslag</string>
+    <string name="speakNotificationsWhenScreenOffTitle">Läs notifieringar även när skärmen är avstängd</string>
+    <string name="speechEngineTitle">Talsyntes</string>
+    <string name="speechTitle">Tal</string>
+    <string name="spielOff">Spiel av</string>
+    <string name="spielOn">Spiel på</string>
+    <string name="textToSpeechTitle">Text till talinställningar</string>
+    <string name="underscore">understräck</string>
+    <string name="unlocked">Upplåst.</string>
+    <string name="useBluetoothSCOTitle">Använd Bluetooth SCO</string>
+    <string name="voicemailAlertsTitle">Notiser för rösteddelanden</string>
+    <string name="welcomeMsg">Välkommen till Spiel!</string>
+
+</resources>

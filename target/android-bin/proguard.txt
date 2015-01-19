@@ -1,0 +1,21 @@
+# view AndroidManifest.xml #generated:53
+-keep class android.test.InstrumentationTestRunner { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class info.spielproject.spiel.Application { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class info.spielproject.spiel.BackupAgent { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class info.spielproject.spiel.Intents { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class info.spielproject.spiel.SpielService { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class info.spielproject.spiel.StatusProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class info.spielproject.spiel.ui.Settings { <init>(...); }
+

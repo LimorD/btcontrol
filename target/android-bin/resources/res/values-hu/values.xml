@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/user/Desktop/spiel/src/main/res/values-hu/strings.xml -->
+    <eat-comment />
+
+    <string name="alertsTitle">figyelmeztetések</string>
+    <string name="ampersand">és</string>
+    <string name="apostrophe">aposztróf</string>
+    <string name="asterisk">csillag</string>
+    <string name="at">kukac</string>
+    <string name="backslash">fordított per</string>
+    <string name="blank">üres</string>
+    <string name="button">gomb</string>
+    <string name="cap">kap %1$s</string>
+    <string name="caret">felfelé nyíl</string>
+    <string name="checkbox">%1$s: jelölőnégyzet</string>
+    <string name="checked">bejelölve</string>
+    <string name="colon">kettőspont</string>
+    <string name="comma">vessző</string>
+    <string name="confirmDelete">Biztosan törölni szeretné a %1$s szkriptjeit?</string>
+    <string name="createScriptTemplate">Szkript sablon készítése</string>
+    <string name="createScriptTemplateAction">Szkript sablon készítése a legfrissebb hozzáférhetőségi eseményhez</string>
+    <string name="dash">mínusz</string>
+    <string name="debuggingTitle">Hibakeresés</string>
+    <string name="delete">Törlés</string>
+    <string name="dollar">dollár</string>
+    <string name="echoByCharTitle">karakterek kiejtése</string>
+    <string name="echoByWordTitle">szavak kiejtése</string>
+    <string name="editText">szerkeszthető mező</string>
+    <string name="emptyList">üres lista</string>
+    <string name="events">Események</string>
+    <string name="exclamation">felkíáltó jel</string>
+    <string name="greaterThan">nagyobb</string>
+    <string name="image">kép</string>
+    <string name="labeledButton">gomb</string>
+    <string name="labeledImage">Kép</string>
+    <string name="leftParen">balzárójel</string>
+    <string name="lessThan">kisebb</string>
+    <string name="listItem">%1$s per %2$s</string>
+    <string name="managePunctuationSpeechSummary">néhány küldötte írásjelet a Spiel fog kezelni</string>
+    <string name="managePunctuationSpeechTitle">Hangsúly beszéd szabályozása</string>
+    <string name="menu">menü</string>
+    <string name="newline">újsor</string>
+    <string name="notChecked">kijelölve</string>
+    <string name="password">%1$s: Jelszó</string>
+    <string name="percent">százalék</string>
+    <string name="period">pont</string>
+    <string name="pitchScaleSummary">a beszéd magasság arányát szabályozza</string>
+    <string name="pitchScaleTitle">hangmagasság arány</string>
+    <string name="plus">plusz</string>
+    <string name="pound">szám</string>
+    <string name="questionMark">kérdőjel</string>
+    <string name="quote">idézőjel</string>
+    <string name="radioButton">választó gomb</string>
+    <string name="rateScaleSummary">a sebesség arányát szabályozza</string>
+    <string name="rateScaleTitle">sebesség arány</string>
+    <string name="refresh">újra ellenőrzés</string>
+    <string name="rightParen">jobbzárójel</string>
+    <string name="ringerOff">csengő kikapcsolva</string>
+    <string name="ringerOn">csengő bekapcsolva</string>
+    <string name="screenOff">kijelző zárolva</string>
+    <string name="scripts">Szkriptek</string>
+    <string name="semiColon">pontosvessző</string>
+    <string name="sendBacktracesSummary">Automatikus névtelen hibajelentések elküldése a fejlesztőnek, ha a Spiel lefagy (újraindítást igényel)</string>
+    <string name="sendBacktracesTitle">visszajővő adatok elküldése, amikor a spiel lefagy</string>
+    <string name="slash">per</string>
+    <string name="space">szóköz</string>
+    <string name="speakNotificationsWhenScreenOffTitle">értesítések  kimondása képernyő zárolás után is</string>
+    <string name="speechEngineTitle">beszéd szintetizátor</string>
+    <string name="speechTitle">beszéd</string>
+    <string name="spielOff">Spiel kikapcsolva</string>
+    <string name="spielOn">Spiel Bekapcsolva</string>
+    <string name="stopSpeech">beszéd elnémítása</string>
+    <string name="talkingCallerIDSummary">ismétli a hívófél-azonosító információt bejővő hívásokkor</string>
+    <string name="talkingCallerIDTitle">beszélő hívófél-azonosító</string>
+    <string name="templateCreated">a sablon a %1$s ben elkészült</string>
+    <string name="textToSpeechSummary">rendszer-terjedelmü szintetizátor tulajdonságainak beállítása</string>
+    <string name="textToSpeechTitle">beszéd szintetizátor beállításai</string>
+    <string name="toggleSpiel">A spiel engedélyezésének állítása</string>
+    <string name="underscore">aláhúzás</string>
+    <string name="unlocked">feloldva</string>
+    <string name="useBluetoothSCOSummary">híváson kívüli audio átírányítása bluetooth  SCO ezközőkre</string>
+    <string name="useBluetoothSCOTitle">Bluetooth SCO használata</string>
+    <string name="voicemailAlertsSummary">új hangposta ismételt figyelmeztetése</string>
+    <string name="voicemailAlertsTitle">hangposta figyelmeztetések</string>
+    <string name="welcomeMsg">üdvözli a Spiel!</string>
+
+</resources>

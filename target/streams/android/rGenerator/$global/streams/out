@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0mProcessing resources[0m
+[0m[[0mdebug[0m] [0mAll libs: List(AarLibrary(C:\Users\user\Desktop\spiel\target\aars\org.macroid-macroid_2.11-2.0.0-M3), AarLibrary(C:\Users\user\Desktop\spiel\target\aars\com.android.support-support-v4-20.0.0))[0m
+[0m[[0mdebug[0m] [0mAll packages: List(macroid, android.support.v4)[0m
+[0m[[0mdebug[0m] [0mpackageForR: info.spielproject.spiel[0m
+[0m[[0mdebug[0m] [0mproguard.txt: C:\Users\user\Desktop\spiel\target\android-bin\proguard.txt[0m
+[0m[[0mdebug[0m] [0mIn modified: Set(C:\Users\user\Desktop\spiel\target\android-bin\AndroidManifest.xml)[0m
+[0m[[0mdebug[0m] [0mInRemoved: Set()[0m
+[0m[[0mdebug[0m] [0mOut checked: Set(C:\Users\user\Desktop\spiel\target\android-gen\info\spielproject\spiel\R.java, C:\Users\user\Desktop\spiel\target\android-gen\info\spielproject\spiel\Manifest.java)[0m
+[0m[[0mdebug[0m] [0mOut modified: Set()[0m

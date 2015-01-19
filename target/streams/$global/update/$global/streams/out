@@ -1,0 +1,986 @@
+[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/user/Desktop/spiel/}info-spielproject-spiel...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: spiel#spiel_2.11;3.0.0-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.11.1[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.1] org.scala-lang#scala-library;2.11.1[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scaloid#scaloid_2.11;3.4-10 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scaloid#scaloid_2.11;3.4-10 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scaloid#scaloid_2.11;3.4-10[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scaloid#scaloid_2.11;3.4-10[0m
+[0m[[0mdebug[0m] [0m	found org.scaloid#scaloid_2.11;3.4-10 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.macroid#macroid_2.11;2.0.0-M3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.macroid#macroid_2.11;2.0.0-M3 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.macroid#macroid_2.11;2.0.0-M3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.macroid#macroid_2.11;2.0.0-M3[0m
+[0m[[0mdebug[0m] [0m	found org.macroid#macroid_2.11;2.0.0-M3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-reflect;2.11.1[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.1] org.scala-lang#scala-reflect;2.11.1[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.android.support#support-v4;20.0.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.android.support#support-v4;20.0.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\user\.ivy2\local\com.android.support\support-v4\20.0.0\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.android.support#support-v4;20.0.0[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/android/support/support-v4/20.0.0/support-v4-20.0.0.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/android/support/support-v4/20.0.0/support-v4-20.0.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.android.support#support-v4;20.0.0[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/user/Desktop/Software/adt-bundle-windows-x86_64-20140702/sdk/extras/google/m2repository/com/android/support/support-v4/20.0.0/support-v4-20.0.0.pom[0m
+[0m[[0mdebug[0m] [0m	google libraries: no ivy file found for com.android.support#support-v4;20.0.0[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/user/Desktop/Software/adt-bundle-windows-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/20.0.0/support-v4-20.0.0.pom[0m
+[0m[[0mdebug[0m] [0m	android libraries: found md file for com.android.support#support-v4;20.0.0[0m
+[0m[[0mdebug[0m] [0m		=> C:\Users\user\Desktop\Software\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-v4\20.0.0\support-v4-20.0.0.pom (20.0.0)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.android.support#support-v4;20.0.0!support-v4.pom(pom.original)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\user\.ivy2\local\com.android.support\support-v4\20.0.0\aars\support-v4.aar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/android/support/support-v4/20.0.0/support-v4-20.0.0.aar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/android/support/support-v4/20.0.0/support-v4-20.0.0.aar[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/user/Desktop/Software/adt-bundle-windows-x86_64-20140702/sdk/extras/google/m2repository/com/android/support/support-v4/20.0.0/support-v4-20.0.0.aar[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/user/Desktop/Software/adt-bundle-windows-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/20.0.0/support-v4-20.0.0.aar[0m
+[0m[[0mdebug[0m] [0m	found com.android.support#support-v4;20.0.0 in android libraries[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.android.support#support-annotations;20.0.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.android.support#support-annotations;20.0.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\user\.ivy2\local\com.android.support\support-annotations\20.0.0\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.android.support#support-annotations;20.0.0[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.android.support#support-annotations;20.0.0[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/user/Desktop/Software/adt-bundle-windows-x86_64-20140702/sdk/extras/google/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.pom[0m
+[0m[[0mdebug[0m] [0m	google libraries: no ivy file found for com.android.support#support-annotations;20.0.0[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/user/Desktop/Software/adt-bundle-windows-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.pom[0m
+[0m[[0mdebug[0m] [0m	android libraries: found md file for com.android.support#support-annotations;20.0.0[0m
+[0m[[0mdebug[0m] [0m		=> C:\Users\user\Desktop\Software\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.pom (20.0.0)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.android.support#support-annotations;20.0.0!support-annotations.pom(pom.original)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\user\.ivy2\local\com.android.support\support-annotations\20.0.0\jars\support-annotations.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/user/Desktop/Software/adt-bundle-windows-x86_64-20140702/sdk/extras/google/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/user/Desktop/Software/adt-bundle-windows-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar[0m
+[0m[[0mdebug[0m] [0m	found com.android.support#support-annotations;20.0.0 in android libraries[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-async_2.11;0.9.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-async_2.11;0.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-async_2.11;0.9.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang.modules#scala-async_2.11;0.9.1[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-async_2.11;0.9.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.brianmckenna#wartremover_2.11;0.10 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.brianmckenna#wartremover_2.11;0.10 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.brianmckenna#wartremover_2.11;0.10[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.brianmckenna#wartremover_2.11;0.10[0m
+[0m[[0mdebug[0m] [0m	found org.brianmckenna#wartremover_2.11;0.10 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.11.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.ccil.cowan.tagsoup#tagsoup;1.2.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.ccil.cowan.tagsoup#tagsoup;1.2.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.ccil.cowan.tagsoup#tagsoup;1.2.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.ccil.cowan.tagsoup#tagsoup;1.2.1[0m
+[0m[[0mdebug[0m] [0m	found org.ccil.cowan.tagsoup#tagsoup;1.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving ch.acra#acra;4.5.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.acra#acra;4.5.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.acra#acra;4.5.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: ch.acra#acra;4.5.0[0m
+[0m[[0mdebug[0m] [0m	found ch.acra#acra;4.5.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.json#json;20080701 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.json#json;20080701 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.json#json;20080701[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.json#json;20080701[0m
+[0m[[0mdebug[0m] [0m	found org.json#json;20080701 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scaloid#scaloid_2.11;3.4-10->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scaloid#scaloid_2.11;3.4-10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->com.android.support#support-v4;20.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.android.support#support-v4;20.0.0->com.android.support#support-annotations;20.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.scala-lang.modules#scala-async_2.11;0.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-async_2.11;0.9.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.macroid#macroid_2.11;2.0.0-M3->org.brianmckenna#wartremover_2.11;0.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-compiler;2.11.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.brianmckenna#wartremover_2.11;0.10->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.macroid#macroid_2.11;2.0.0-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->com.android.support#support-v4;20.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.acra#acra;4.5.0->org.json#json;20080701 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->ch.acra#acra;4.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for spiel#spiel_2.11;3.0.0-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.2 [scala-tool->default][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.2 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.11.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.2 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.2 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.11.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.2] org.scala-lang#scala-library;2.11.2[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.2] org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.2 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.2 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->jline#jline;2.12 [optional->master(*)][0m
+[0m[[0minfo[0m] [0mResolving jline#jline;2.12 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.12 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: jline#jline;2.12[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: jline#jline;2.12[0m
+[0m[[0mdebug[0m] [0m	found jline#jline;2.12 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->jline#jline;2.12 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies spiel#spiel_2.11;3.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scaloid#scaloid_2.11;3.4-10!scaloid_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.macroid#macroid_2.11;2.0.0-M3!macroid_2.11.aar[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/user/Desktop/Software/adt-bundle-windows-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/20.0.0/support-v4-20.0.0.aar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.android.support#support-v4;20.0.0!support-v4.aar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ccil.cowan.tagsoup#tagsoup;1.2.1!tagsoup.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.acra#acra;4.5.0!acra.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.1!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.1!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-async_2.11;0.9.1!scala-async_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.brianmckenna#wartremover_2.11;0.10!wartremover_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/user/Desktop/Software/adt-bundle-windows-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.android.support#support-annotations;20.0.0!support-annotations.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.0!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1!scala-parser-combinators_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.json#json;20080701!json.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.2!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2!scala-parser-combinators_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12!jline.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3614ms :: artifacts dl 135ms[0m
+[0m[[0mdebug[0m] [0m	report for spiel#spiel_2.11;3.0.0-SNAPSHOT compile produced in C:\Users\user\Desktop\spiel\target\resolution-cache\reports\spiel-spiel_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for spiel#spiel_2.11;3.0.0-SNAPSHOT runtime produced in C:\Users\user\Desktop\spiel\target\resolution-cache\reports\spiel-spiel_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for spiel#spiel_2.11;3.0.0-SNAPSHOT test produced in C:\Users\user\Desktop\spiel\target\resolution-cache\reports\spiel-spiel_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for spiel#spiel_2.11;3.0.0-SNAPSHOT provided produced in C:\Users\user\Desktop\spiel\target\resolution-cache\reports\spiel-spiel_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for spiel#spiel_2.11;3.0.0-SNAPSHOT optional produced in C:\Users\user\Desktop\spiel\target\resolution-cache\reports\spiel-spiel_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for spiel#spiel_2.11;3.0.0-SNAPSHOT compile-internal produced in C:\Users\user\Desktop\spiel\target\resolution-cache\reports\spiel-spiel_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for spiel#spiel_2.11;3.0.0-SNAPSHOT runtime-internal produced in C:\Users\user\Desktop\spiel\target\resolution-cache\reports\spiel-spiel_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for spiel#spiel_2.11;3.0.0-SNAPSHOT test-internal produced in C:\Users\user\Desktop\spiel\target\resolution-cache\reports\spiel-spiel_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for spiel#spiel_2.11;3.0.0-SNAPSHOT plugin produced in C:\Users\user\Desktop\spiel\target\resolution-cache\reports\spiel-spiel_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for spiel#spiel_2.11;3.0.0-SNAPSHOT sources produced in C:\Users\user\Desktop\spiel\target\resolution-cache\reports\spiel-spiel_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for spiel#spiel_2.11;3.0.0-SNAPSHOT docs produced in C:\Users\user\Desktop\spiel\target\resolution-cache\reports\spiel-spiel_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for spiel#spiel_2.11;3.0.0-SNAPSHOT pom produced in C:\Users\user\Desktop\spiel\target\resolution-cache\reports\spiel-spiel_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for spiel#spiel_2.11;3.0.0-SNAPSHOT scala-tool produced in C:\Users\user\Desktop\spiel\target\resolution-cache\reports\spiel-spiel_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (3614ms resolve - 135ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m

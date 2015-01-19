@@ -1,0 +1,2705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="C:\Users\user\Desktop\spiel\target\aars\com.android.support-support-v4-20.0.0\res" >
+        <source path="C:\Users\user\Desktop\spiel\target\aars\com.android.support-support-v4-20.0.0\res" />
+    </dataSet>
+    <dataSet config="C:\Users\user\Desktop\spiel\src\main\res" >
+        <source path="C:\Users\user\Desktop\spiel\src\main\res" >
+            <file
+                name="empty"
+                path="C:\Users\user\Desktop\spiel\src\main\res\drawable\empty.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="events_context"
+                path="C:\Users\user\Desktop\spiel\src\main\res\menu\events_context.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="refreshable"
+                path="C:\Users\user\Desktop\spiel\src\main\res\menu\refreshable.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="scripts_context"
+                path="C:\Users\user\Desktop\spiel\src\main\res\menu\scripts_context.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="spiel"
+                path="C:\Users\user\Desktop\spiel\src\main\res\menu\spiel.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="tick"
+                path="C:\Users\user\Desktop\spiel\src\main\res\raw\tick.ogg"
+                qualifiers=""
+                type="raw" />
+            <file
+                path="C:\Users\user\Desktop\spiel\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="item" >%1$s: 1 item
+                </string>
+                <string name="period" >dot
+                </string>
+                <string name="unknown" >Unknown
+                </string>
+                <string name="labeledButton" >%1$s: button
+                </string>
+                <string name="image" >image
+                </string>
+                <string name="listWithItems" >list with %1$s items
+                </string>
+                <string name="word" >Word
+                </string>
+                <string name="none" >None
+                </string>
+                <string name="comma" >comma
+                </string>
+                <string name="pitchScaleSummary" >Factor by which default pitch should be scaled
+                </string>
+                <string name="pound" >pound
+                </string>
+                <string name="sendBacktracesTitle" >Send backtraces when Spiel crashes
+                </string>
+                <string name="spielOff" >Spiel off
+                </string>
+                <string name="lessThan" >less
+                </string>
+                <string name="sendCommandsDescription" >Send commands to perform speech and other actions to the Spiel screen reader
+                </string>
+                <string name="character" >Character
+                </string>
+                <string name="ringerOn" >Ringer on
+                </string>
+                <string name="voicemailAlertsTitle" >Voicemail alerts
+                </string>
+                <string name="unlocked" >Unlocked
+                </string>
+                <string name="echoByWordTitle" >Echo by word
+                </string>
+                <string name="checked" >checked
+                </string>
+                <string name="checkbox" >%1$s: checkbox
+                </string>
+                <string name="newVoicemail" >New voicemail
+                </string>
+                <string name="ringerOff" >Ringer off
+                </string>
+                <string name="at" >at
+                </string>
+                <string name="rightParen" >right paren
+                </string>
+                <string name="settings" >Settings
+                </string>
+                <string name="appName" >Spiel
+                </string>
+                <string name="debuggingTitle" >Debugging
+                </string>
+                <string name="spielOn" >Spiel on
+                </string>
+                <string name="rateScaleTitle" >Rate scale
+                </string>
+                <string name="useBluetoothSCOTitle" >Use Bluetooth SCO
+                </string>
+                <string name="ampersand" >and
+                </string>
+                <string name="duckNonSpeechAudioTitle" >Duck non-speech audio
+                </string>
+                <string name="speakNotificationsWhenScreenOffTitle" >Speak notifications even when screen is off
+                </string>
+                <string name="screenOff" >Screen off
+                </string>
+                <string name="talkingCallerIDSummary" >Repeatedly announce caller ID details for incoming calls
+                </string>
+                <string name="line" >Line
+                </string>
+                <string name="alertsTitle" >Alerts
+                </string>
+                <string name="pitchScaleTitle" >Pitch scale
+                </string>
+                <string name="link" >link
+                </string>
+                <string name="sendCommandsLabel" >Send commands to Spiel
+                </string>
+                <string name="stopSpeech" >Stop speech
+                </string>
+                <string name="caret" >caret
+                </string>
+                <string name="selected" >selected
+                </string>
+                <string name="disabled" >disabled
+                </string>
+                <string name="voicemailAlertsSummary" >Repeatedly announce availability of new voicemail
+                </string>
+                <string name="questionMark" >question
+                </string>
+                <string name="textToSpeechSummary" >Set system-wide TTS properties
+                </string>
+                <string name="notChecked" >not checked
+                </string>
+                <string name="speechTitle" >Speech
+                </string>
+                <string name="leftParen" >left paren
+                </string>
+                <string name="notSelected" >not selected
+                </string>
+                <string name="greaterThan" >greater
+                </string>
+                <string name="paragraph" >Paragraph
+                </string>
+                <string name="button" >button
+                </string>
+                <string name="profilingTitle" >Profiling
+                </string>
+                <string name="items" >%1$s: %2$s items
+                </string>
+                <string name="plus" >plus
+                </string>
+                <string name="backslash" >backslash
+                </string>
+                <string name="profilingSummary" >Only enable for development as this impacts performance!
+                </string>
+                <string name="toggleSpiel" >Toggle whether or not Spiel is enabled
+                </string>
+                <string name="exclamation" >exclaim
+                </string>
+                <string name="colon" >colon
+                </string>
+                <string name="tabWidget" >%1$s: tab
+                </string>
+                <string name="dash" >dash
+                </string>
+                <string name="page" >Page
+                </string>
+                <string name="useBluetoothSCOSummary" >Route off-call audio through Bluetooth SCO earpieces (experimental!)
+                </string>
+                <string name="managePunctuationSpeechTitle" >Manage punctuation speech
+                </string>
+                <string name="notificationFiltersTitle" >Notification filters
+                </string>
+                <string name="percent" >percent
+                </string>
+                <string name="asterisk" >star
+                </string>
+                <string name="slash" >slash
+                </string>
+                <string name="systemDefault" >System default
+                </string>
+                <string name="emptyList" >empty list
+                </string>
+                <string name="editText" >edit text
+                </string>
+                <string name="appDescription" >A flexible, scriptable Android screen reader
+                </string>
+                <string name="landscape" >Landscape
+                </string>
+                <string name="blank" >blank
+                </string>
+                <string name="tab" >tab
+                </string>
+                <string name="sendBacktracesSummary" >Automatically send anonymous error reports to the developer whenever Spiel crashes (requires restart)
+                </string>
+                <string name="listWithItem" >list with 1 item
+                </string>
+                <string name="quote" >quote
+                </string>
+                <string name="portrait" >Portrait
+                </string>
+                <string name="hapticFeedbackTitle" >Haptic feedback
+                </string>
+                <string name="newline" >Newline
+                </string>
+                <string name="echoByCharTitle" >Echo by character
+                </string>
+                <string name="notificationFiltersSummary" >Filter presentation of notification changes for noisy apps
+                </string>
+                <string name="menu" >menu
+                </string>
+                <string name="labeledImage" >%1$s: image
+                </string>
+                <string name="hapticFeedbackSummary" >Emit vibrations whenever widget boundaries are crossed
+                </string>
+                <string name="listItem" >%1$s of %2$s
+                </string>
+                <string name="textToSpeechTitle" >Text to Speech settings
+                </string>
+                <string name="space" >space
+                </string>
+                <string name="underscore" >underscore
+                </string>
+                <string name="duckNonSpeechAudioSummary" >Lower volume of music, games, etc. while speaking
+                </string>
+                <string name="welcomeMsg" >Welcome to Spiel!
+                </string>
+                <string name="semiColon" >semi colon
+                </string>
+                <string name="talkingCallerIDTitle" >Talking caller ID
+                </string>
+                <string name="password" >password
+                </string>
+                <string name="rateScaleSummary" >Factor by which default rate should be scaled
+                </string>
+                <string name="enabledPlugins" >Enabled plugins
+                </string>
+                <string name="charging" >charging
+                </string>
+                <string name="dollar" >dollar
+                </string>
+                <string name="menuItem" >menu item
+                </string>
+                <string name="rating" >Rating
+                </string>
+                <string name="ringerVibrate" >Ringer vibrate
+                </string>
+                <string name="managePunctuationSpeechSummary" >Delegate speaking of some unhandled punctuation to Spiel
+                </string>
+                <string name="apostrophe" >apostrophe
+                </string>
+                <string name="speechEngineTitle" >Speech engine
+                </string>
+                <string name="radioButton" >radio button
+                </string>
+                <string name="cap" >cap %1$s
+                </string>
+            </file>
+            <file
+                path="C:\Users\user\Desktop\spiel\src\main\res\values-cs\strings.xml"
+                qualifiers="cs" >
+                <string name="slash" >lomeno
+                </string>
+                <string name="emptyList" >prázdný seznam
+                </string>
+                <string name="managePunctuationSpeechSummary" >Přiřadit Spielu výslovnost nedefinovaných interpunkčních znamének
+                </string>
+                <string name="rateScaleSummary" >Faktor, kterým mohou být nastaveny základní hodnoty rychlosti
+                </string>
+                <string name="createScriptTemplateAction" >Vytvořit šablonu skriptu pro nejnovější událost přístupnosti
+                </string>
+                <string name="checkbox" >%1$s: zaškrtávací políčko
+                </string>
+                <string name="checked" >zaškrtnuto
+                </string>
+                <string name="textToSpeechTitle" >Nastavení převodu textu na řeč
+                </string>
+                <string name="button" >tlačítko
+                </string>
+                <string name="stopSpeech" >Zastavit mluvení
+                </string>
+                <string name="delete" >Smazat
+                </string>
+                <string name="questionMark" >otazník
+                </string>
+                <string name="caret" >stříška
+                </string>
+                <string name="alertsTitle" >Upozornění
+                </string>
+                <string name="quote" >uvozovky
+                </string>
+                <string name="echoByCharTitle" >Odezva po znacích
+                </string>
+                <string name="lessThan" >menší než
+                </string>
+                <string name="spielOff" >Spiel je vypnutý
+                </string>
+                <string name="speakNotificationsWhenScreenOffTitle" >Hlásit oznámení i při vypnutém displeji
+                </string>
+                <string name="newline" >Nový řádek
+                </string>
+                <string name="spielOn" >Spiel je zapnutý
+                </string>
+                <string name="ampersand" >ampersand
+                </string>
+                <string name="password" >%1$s: heslo
+                </string>
+                <string name="leftParen" >levá závorka
+                </string>
+                <string name="pitchScaleSummary" >Faktor, kterým mohou být nastaveny základní hodnoty výšky
+                </string>
+                <string name="exclamation" >vykřičník
+                </string>
+                <string name="semiColon" >středník
+                </string>
+                <string name="radioButton" >přepínač
+                </string>
+                <string name="dash" >pomlčka
+                </string>
+                <string name="listItem" >%1$s z %2$s
+                </string>
+                <string name="welcomeMsg" >Vítá vás Spiel!
+                </string>
+                <string name="voicemailAlertsTitle" >Upozornění na hlasovou poštu
+                </string>
+                <string name="portrait" >Na výšku
+                </string>
+                <string name="useBluetoothSCOTitle" >Použít Bluetooth SCO
+                </string>
+                <string name="greaterThan" >větší než
+                </string>
+                <string name="plus" >plus
+                </string>
+                <string name="notChecked" >nezaškrtnuto
+                </string>
+                <string name="managePunctuationSpeechTitle" >Řídit vyslovování interpunkčních znamének
+                </string>
+                <string name="underscore" >podtržení
+                </string>
+                <string name="sendBacktracesTitle" >Odeslat report, když Spiel havaruje
+                </string>
+                <string name="space" >mezera
+                </string>
+                <string name="createScriptTemplate" >Vytvořit šablonu skriptu
+                </string>
+                <string name="landscape" >Na šířku
+                </string>
+                <string name="apostrophe" >apostrof
+                </string>
+                <string name="refresh" >Obnovit
+                </string>
+                <string name="colon" >dvojtečka
+                </string>
+                <string name="menu" >menu
+                </string>
+                <string name="voicemailAlertsSummary" >Opakovaně oznamovat dostupnost nové hlasové pošty
+                </string>
+                <string name="sendBacktracesSummary" >Automaticky odesílat anonimní zprávy o chybě vývojáři, kdykoli Spiel havaruje (vyžaduje restart)
+                </string>
+                <string name="screenOff" >Displej je vypnutý
+                </string>
+                <string name="rateScaleTitle" >Rychlost
+                </string>
+                <string name="textToSpeechSummary" >Nastavit rozšířené vlastnosti systému TTS
+                </string>
+                <string name="comma" >čárka
+                </string>
+                <string name="echoByWordTitle" >Odezva po slovech
+                </string>
+                <string name="cap" >velké %1$s
+                </string>
+                <string name="debuggingTitle" >Ladění
+                </string>
+                <string name="rightParen" >pravá závorka
+                </string>
+                <string name="confirmDelete" >Jste si jisti, že chcete smazat skript pro balíček %1$s?
+                </string>
+                <string name="asterisk" >hvězdička
+                </string>
+                <string name="useBluetoothSCOSummary" >Přesměrování zvuku hovoru do Bluetooth SCO sluchátek (experimentální!)
+                </string>
+                <string name="pound" >libra
+                </string>
+                <string name="talkingCallerIDTitle" >Hlasová identifikace volajícího
+                </string>
+                <string name="blank" >Prázdný
+                </string>
+                <string name="appName" >Spiel
+                </string>
+                <string name="pitchScaleTitle" >Výška
+                </string>
+                <string name="labeledButton" >%1$s: tlačítko
+                </string>
+                <string name="talkingCallerIDSummary" >Opakovaně oznamovat podrobnosti o volajícím u příchozích hovorů
+                </string>
+                <string name="toggleSpiel" >Určuje, zda je Spiel povolen
+                </string>
+                <string name="ringerOn" >Vyzvánění zapnuto
+                </string>
+                <string name="templateCreated" >šablona vytvořena v %1$s.
+                </string>
+                <string name="backslash" >obrácené lomítko
+                </string>
+                <string name="percent" >procent
+                </string>
+                <string name="ringerOff" >Vyzvánění vypnuto
+                </string>
+                <string name="dollar" >dolar
+                </string>
+                <string name="editText" >%1$s: upravit text
+                </string>
+                <string name="image" >%1$s: obrázek
+                </string>
+                <string name="speechTitle" >řeč
+                </string>
+                <string name="period" >tečka
+                </string>
+                <string name="unlocked" >Odemknuto
+                </string>
+                <string name="labeledImage" >%1$s: obrázek
+                </string>
+                <string name="speechEngineTitle" >Nástroj řeči
+                </string>
+                <string name="scripts" >Skripty
+                </string>
+                <string name="events" >Události
+                </string>
+                <string name="at" >zavináč
+                </string>
+            </file>
+            <file
+                path="C:\Users\user\Desktop\spiel\src\main\res\values-de\strings.xml"
+                qualifiers="de" >
+                <string name="duckNonSpeechAudioSummary" >Geringere Lautstärke für Musik, Spiele etc. während die Sprachausgabe spricht
+                </string>
+                <string name="checked" >aktiviert
+                </string>
+                <string name="scriptUninstalling" >Deinstalliere %1$s
+                </string>
+                <string name="stopSpeech" >Sprache stoppen
+                </string>
+                <string name="plus" >plus
+                </string>
+                <string name="talkingCallerIDTitle" >Anrufer ansagen
+                </string>
+                <string name="dash" >strich
+                </string>
+                <string name="page" >Seite
+                </string>
+                <string name="unlocked" >Entsperrt
+                </string>
+                <string name="listWithItem" >Liste mit 1 Eintrag
+                </string>
+                <string name="caret" >zirkumflex
+                </string>
+                <string name="slash" >schrägstrich
+                </string>
+                <string name="questionMark" >fragezeichen
+                </string>
+                <string name="sendCommandsDescription" >Sende Befehle zur Steuerung von Sprache und weiterer Aktionen an den Spiel Screen Reader
+                </string>
+                <string name="settings" >Einstellungen
+                </string>
+                <string name="listItem" >%1$s von %2$s
+                </string>
+                <string name="managePunctuationSpeechTitle" >Satzzeichenbehandlung
+                </string>
+                <string name="period" >punkt
+                </string>
+                <string name="quote" >anführung
+                </string>
+                <string name="systemDefault" >Systemvoreinstellung
+                </string>
+                <string name="echoByWordTitle" >Tastaturecho Wörter
+                </string>
+                <string name="hapticFeedbackSummary" >Kurze Vibration, wenn die Umrandung eines Bildschirmobjektes berührt wird
+                </string>
+                <string name="speakNotificationsWhenScreenOffTitle" >Meldungen auch bei ausgeschaltetem Bildschirm sprechen
+                </string>
+                <string name="selected" >gewählt
+                </string>
+                <string name="disabled" >nicht verfügbar
+                </string>
+                <string name="labeledImage" >%1$s: Bild
+                </string>
+                <string name="blank" >leer
+                </string>
+                <string name="apostrophe" >apostroph
+                </string>
+                <string name="events" >Ereignisse
+                </string>
+                <string name="appName" >Spiel
+                </string>
+                <string name="colon" >doppelpunkt
+                </string>
+                <string name="backslash" >bäcksläsh
+                </string>
+                <string name="spielOff" >Spiel aus
+                </string>
+                <string name="refresh" >Aktualisieren
+                </string>
+                <string name="tab" >tab
+                </string>
+                <string name="speechEngineTitle" >Sprachausgabe Stimme
+                </string>
+                <string name="newline" >neue zeile
+                </string>
+                <string name="scripts" >Skripte
+                </string>
+                <string name="templateCreationError" >Beim Erstellen der Skript-Vorlage ist ein Fehler aufgetreten.
+                </string>
+                <string name="editText" >Text bearbeiten
+                </string>
+                <string name="enabledPlugins" >aktivierte Plugins
+                </string>
+                <string name="pitchScaleSummary" >Faktor, um welchen die voreingestellte Tonhöhe geändert wird
+                </string>
+                <string name="percent" >prozent
+                </string>
+                <string name="paragraph" >Absatz
+                </string>
+                <string name="echoByCharTitle" >Tastaturecho Zeichen
+                </string>
+                <string name="confirmDelete" >Sind Sie sicher, dass Sie das Skript für %1$s löschen möchten?
+                </string>
+                <string name="radioButton" >Auswahlschalter
+                </string>
+                <string name="ringerOn" >Klingelton ein
+                </string>
+                <string name="greaterThan" >größer
+                </string>
+                <string name="pitchScaleTitle" >Tonhöhe
+                </string>
+                <string name="useBluetoothSCOSummary" >off-call Audiosignale über Bluetooth SCO Kopfhörer ausgeben (experimentell!)
+                </string>
+                <string name="ampersand" >undzeichen
+                </string>
+                <string name="newVoicemail" >Neue Sprachnachricht
+                </string>
+                <string name="item" >%1$s: 1 Eintrag
+                </string>
+                <string name="duckNonSpeechAudioTitle" >konkurierendes Audio absenken
+                </string>
+                <string name="useBluetoothSCOTitle" >Bluetooth SCO verwenden
+                </string>
+                <string name="textToSpeechTitle" >Sprachausgabe, Einstellungen
+                </string>
+                <string name="asterisk" >stern
+                </string>
+                <string name="ringerOff" >Klingelton aus
+                </string>
+                <string name="rating" >Wert
+                </string>
+                <string name="notChecked" >nicht aktiviert
+                </string>
+                <string name="space" >leerzeichen
+                </string>
+                <string name="alertsTitle" >Hinweise
+                </string>
+                <string name="cap" >groß %1$s
+                </string>
+                <string name="hapticFeedbackTitle" >Haptisches Feedback
+                </string>
+                <string name="profilingSummary" >sollte nur zu Entwicklungszwecken aktiviert werden, da hierdurch das Antwortverhalten verschlechtert wird!
+                </string>
+                <string name="createScriptTemplateAction" >Skript-Vorlage für das letzte accessibility event erstellen
+                </string>
+                <string name="image" >Bild
+                </string>
+                <string name="profilingTitle" >Profiling
+                </string>
+                <string name="scriptInstalling" >Installiere %1$s
+                </string>
+                <string name="line" >Zeile
+                </string>
+                <string name="emptyList" >leere Liste
+                </string>
+                <string name="portrait" >Hochformat
+                </string>
+                <string name="voicemailAlertsTitle" >Voicemail hinweis
+                </string>
+                <string name="scriptUpdating" >Aktualisiere %1$s
+                </string>
+                <string name="character" >Zeichen
+                </string>
+                <string name="screenOff" >Bildschirm aus
+                </string>
+                <string name="rateScaleTitle" >Geschwindigkeit
+                </string>
+                <string name="rateScaleSummary" >Faktor, um welchen die voreingestellte Geschwindigkeit geändert wird
+                </string>
+                <string name="button" >Schalter
+                </string>
+                <string name="link" >link
+                </string>
+                <string name="debuggingTitle" >Debuggen
+                </string>
+                <string name="charging" >laden
+                </string>
+                <string name="word" >Wort
+                </string>
+                <string name="password" >Passwort
+                </string>
+                <string name="menuItem" >Menüeintrag
+                </string>
+                <string name="appDescription" >Ein flexibler, skriptbarer Android screenreader
+                </string>
+                <string name="createScriptTemplate" >skript-Vorlage erstellen
+                </string>
+                <string name="templateCreated" >Vorlage in %1$s erstellt.
+                </string>
+                <string name="speechTitle" >Sprachausgabe
+                </string>
+                <string name="labeledButton" >%1$s Schalter
+                </string>
+                <string name="toggleSpiel" >Spiel ein-/ausschalten
+                </string>
+                <string name="underscore" >unterstrich
+                </string>
+                <string name="tabWidget" >%1$s: Reiter
+                </string>
+                <string name="pound" >pfund
+                </string>
+                <string name="exclamation" >ausrufezeichen
+                </string>
+                <string name="comma" >komma
+                </string>
+                <string name="rightParen" >klammer zu
+                </string>
+                <string name="lessThan" >kleiner
+                </string>
+                <string name="notSelected" >nicht gewählt
+                </string>
+                <string name="leftParen" >klammer auf
+                </string>
+                <string name="delete" >Löschen
+                </string>
+                <string name="dollar" >dollar
+                </string>
+                <string name="semiColon" >semicolon
+                </string>
+                <string name="welcomeMsg" >Willkommen bei Spiel!
+                </string>
+                <string name="ringerVibrate" >Klingelton Vibration
+                </string>
+                <string name="textToSpeechSummary" >Systemweite Eigenschaften für die Sprachausgabe festlegen
+                </string>
+                <string name="talkingCallerIDSummary" >Bei eingehenden Anrufen wiederholt Anruferdetails ansagen
+                </string>
+                <string name="at" >klammeraffe
+                </string>
+                <string name="menu" >Menü
+                </string>
+                <string name="spielOn" >Spiel ein
+                </string>
+                <string name="sendBacktracesSummary" >Automatisch anonyme Fehlerberichte an den Entwickler senden, wann immer Spiel abstürzt (macht einen Neustart erforderlich)
+                </string>
+                <string name="landscape" >Querformat
+                </string>
+                <string name="none" >keine Aktion
+                </string>
+                <string name="unknown" >Unbekannt
+                </string>
+                <string name="sendBacktracesTitle" >Problemberichte beim Absturz von Spiel senden
+                </string>
+                <string name="managePunctuationSpeechSummary" >Spiel übernimmt die Ausgabe vom Sprachsynthesizer unbehandelter Satzzeichen
+                </string>
+                <string name="sendCommandsLabel" >Sende Befehle an Spiel
+                </string>
+                <string name="notificationFiltersTitle" >Benachrichtigungsfilter
+                </string>
+                <string name="voicemailAlertsSummary" >Gibt wiederholt die Verfügbarkeit neuer Sprachnachrichten aus
+                </string>
+                <string name="items" >%1$s: %2$s Einträge
+                </string>
+                <string name="checkbox" >%1$s Kontrollfeld
+                </string>
+                <string name="listWithItems" >Liste mit %1$s Einträgen
+                </string>
+                <string name="notificationFiltersSummary" >Einstellungen zur anwendungsspezifischen Benachrichtigungsausgabe
+                </string>
+            </file>
+            <file
+                path="C:\Users\user\Desktop\spiel\src\main\res\values-es\strings.xml"
+                qualifiers="es" >
+                <string name="unlocked" >Desbloqueado
+                </string>
+                <string name="sendBacktracesSummary" >Enviar informe de error automática y anonímamente al desarrollador cada vez que Spiel falle (se necesita reiniciar).
+                </string>
+                <string name="echoByCharTitle" >Pronunciar caracteres
+                </string>
+                <string name="textToSpeechTitle" >Ajustes texto a voz
+                </string>
+                <string name="period" >punto
+                </string>
+                <string name="slash" >barra
+                </string>
+                <string name="percent" >porciento
+                </string>
+                <string name="stopSpeech" >Parar el sintetizador
+                </string>
+                <string name="asterisk" >asterisco
+                </string>
+                <string name="greaterThan" >mayor que
+                </string>
+                <string name="semiColon" >punto y coma
+                </string>
+                <string name="templateCreated" >Plantilla creada en %1$s.
+                </string>
+                <string name="textToSpeechSummary" >Ajustar propriedades  texto a voz del sistema
+                </string>
+                <string name="talkingCallerIDTitle" >Identificador de llamadas parlante
+                </string>
+                <string name="screenOff" >Pantalla apagada
+                </string>
+                <string name="voicemailAlertsTitle" >Alertas de correo de voz
+                </string>
+                <string name="scripts" >Script
+                </string>
+                <string name="quote" >comillas
+                </string>
+                <string name="dollar" >dólar
+                </string>
+                <string name="menu" >menú
+                </string>
+                <string name="alertsTitle" >Alertas
+                </string>
+                <string name="useBluetoothSCOTitle" >Usar Bluetooth SCO
+                </string>
+                <string name="debuggingTitle" >Depuración
+                </string>
+                <string name="speakNotificationsWhenScreenOffTitle" >Anunciar notificaciones aunque la pantalla esté bloqueada
+                </string>
+                <string name="cap" >%1$s mayús
+                </string>
+                <string name="editText" >%1$s: editar texto
+                </string>
+                <string name="echoByWordTitle" >Pronunciar palabras
+                </string>
+                <string name="questionMark" >interrogación
+                </string>
+                <string name="password" >%1$s: contraseña
+                </string>
+                <string name="caret" >acento circunflejo
+                </string>
+                <string name="exclamation" >admiración
+                </string>
+                <string name="notChecked" >no verificado
+                </string>
+                <string name="ringerOff" >Timbre apagado
+                </string>
+                <string name="createScriptTemplate" >Crear plantilla de script
+                </string>
+                <string name="pitchScaleSummary" >Factor por el cual se ajusta el tono predeterminado
+                </string>
+                <string name="createScriptTemplateAction" >Crear  plantilla de script para el último evento de accesibilidad
+                </string>
+                <string name="leftParen" >abre paréntesis
+                </string>
+                <string name="backslash" >contrabarra
+                </string>
+                <string name="underscore" >guión bajo
+                </string>
+                <string name="useBluetoothSCOSummary" >Enviar sonido que no corresponde a llamadas al auricular Bluetooth SCO (experimental!)
+                </string>
+                <string name="radioButton" >botón radio
+                </string>
+                <string name="welcomeMsg" >Bienvenido a Spiel!
+                </string>
+                <string name="space" >espacio
+                </string>
+                <string name="labeledButton" >%1$s botón
+                </string>
+                <string name="talkingCallerIDSummary" >Repetir detalles del identificador para llamadas entrantes
+                </string>
+                <string name="blank" >en blanco
+                </string>
+                <string name="apostrophe" >apóstrofo
+                </string>
+                <string name="ampersand" >y
+                </string>
+                <string name="colon" >dos puntos
+                </string>
+                <string name="managePunctuationSpeechTitle" >Gestionar la pronunciación de puntuación
+                </string>
+                <string name="comma" >coma
+                </string>
+                <string name="newline" >Linea Nueva
+                </string>
+                <string name="rateScaleSummary" >Factor por el cual se ajusta la velocidad predeterminada
+                </string>
+                <string name="pound" >número
+                </string>
+                <string name="lessThan" >menor que
+                </string>
+                <string name="managePunctuationSpeechSummary" >Delegar a Spiel la pronunciación de ciertos signos de puntuación no gestionados
+                </string>
+                <string name="checked" >verificado
+                </string>
+                <string name="at" >arroba
+                </string>
+                <string name="checkbox" >%1$s: casilla de verificación
+                </string>
+                <string name="ringerOn" >Timbre encendido
+                </string>
+                <string name="speechEngineTitle" >Motor del sintetizador de voz
+                </string>
+                <string name="voicemailAlertsSummary" >Repetir la disponibilidad de Nuevas llamadas en el buzón
+                </string>
+                <string name="sendBacktracesTitle" >Enviar trazas cuando Spiel falla
+                </string>
+                <string name="image" >imagen de %1$s
+                </string>
+                <string name="spielOff" >Spiel desactivado.
+                </string>
+                <string name="plus" >Mas
+                </string>
+                <string name="toggleSpiel" >Conmutar entre activación y desactivación de Spiel
+                </string>
+                <string name="speechTitle" >Voz
+                </string>
+                <string name="spielOn" >Spiel activado.
+                </string>
+                <string name="button" >botón de %1$s
+                </string>
+                <string name="pitchScaleTitle" >Escala de tono del sintetizador
+                </string>
+                <string name="emptyList" >lista vacía
+                </string>
+                <string name="rightParen" >cierra paréntesis
+                </string>
+                <string name="events" >Eventos
+                </string>
+                <string name="delete" >Eliminar
+                </string>
+                <string name="refresh" >Actualizar pantalla
+                </string>
+                <string name="confirmDelete" >¿Está seguro que desea eliminar el script de package %1$s?
+                </string>
+                <string name="listItem" >%1$s de %2$s
+                </string>
+                <string name="rateScaleTitle" >Escala de velocidad
+                </string>
+            </file>
+            <file
+                path="C:\Users\user\Desktop\spiel\src\main\res\values-ff\strings.xml"
+                qualifiers="ff" >
+                <string name="password" >%1$s: finnde
+                </string>
+                <string name="ringerOn" >Holɓirde huɓɓii.
+                </string>
+                <string name="editText" >%1$s: taƴto binndol
+                </string>
+                <string name="image" >%1$s: natal
+                </string>
+                <string name="notChecked" >labaaka
+                </string>
+                <string name="speechEngineTitle" >Motoor Wowlaandu
+                </string>
+                <string name="ringerOff" >Horɓirde ñifii.
+                </string>
+                <string name="welcomeMsg" >A jaɓɓaama e Spiel!
+                </string>
+                <string name="rateScaleTitle" >Daawirgal cookol
+                </string>
+                <string name="spielOn" >Spiel hurmii.
+                </string>
+                <string name="listItem" >%1$s nder %2$s
+                </string>
+                <string name="speechTitle" >Wowlaandu
+                </string>
+                <string name="checkbox" >%1$s: bakanel labo
+                </string>
+                <string name="radioButton" >ñiire labo
+                </string>
+                <string name="spielOff" >Spiel Dartiima.
+                </string>
+                <string name="menu" >dosol
+                </string>
+                <string name="button" >ƴiire
+                </string>
+                <string name="emptyList" >doggol ɓolol
+                </string>
+                <string name="checked" >labaaɗo
+                </string>
+            </file>
+            <file
+                path="C:\Users\user\Desktop\spiel\src\main\res\values-fi\strings.xml"
+                qualifiers="fi" >
+                <string name="scriptInstalling" >Asennetaan %1$s
+                </string>
+                <string name="none" >Ei mitään
+                </string>
+                <string name="useBluetoothSCOTitle" >Käytä Bluetooth SCO:ta
+                </string>
+                <string name="hapticFeedbackSummary" >Laite värisee, kun widgetin rajat ylitetään
+                </string>
+                <string name="unlocked" >Lukitus avattu
+                </string>
+                <string name="rating" >Arvio
+                </string>
+                <string name="notChecked" >ei valittu
+                </string>
+                <string name="confirmDelete" >Haluatko varmasti poistaa paketin %1$s skriptin?
+                </string>
+                <string name="disabled" >ei käytettävissä
+                </string>
+                <string name="menu" >valikko
+                </string>
+                <string name="selected" >valittu
+                </string>
+                <string name="duckNonSpeechAudioSummary" >Alentaa puhuttaessa musiikin, pelien ym. äänenvoimakkuutta
+                </string>
+                <string name="templateCreated" >Malli luotu tiedostoon %1$s.
+                </string>
+                <string name="voicemailAlertsTitle" >Ääniviestit
+                </string>
+                <string name="listWithItem" >lista jossa 1 kohde
+                </string>
+                <string name="createScriptTemplate" >Luo skriptin malli
+                </string>
+                <string name="talkingCallerIDSummary" >Lukee toistuvasti soittajan tiedot saapuville puheluille
+                </string>
+                <string name="settings" >Asetukset
+                </string>
+                <string name="image" >kuva
+                </string>
+                <string name="speechTitle" >Puhe
+                </string>
+                <string name="rateScaleTitle" >Nopeus
+                </string>
+                <string name="tab" >sarkain
+                </string>
+                <string name="button" >painike
+                </string>
+                <string name="createScriptTemplateAction" >Luo skriptin malli uusimmalle esteettömyystapahtumalle
+                </string>
+                <string name="ringerOff" >Soittoääni pois käytöstä
+                </string>
+                <string name="labeledImage" >%1$s: kuva
+                </string>
+                <string name="dollar" >dollari
+                </string>
+                <string name="line" >Rivi
+                </string>
+                <string name="newline" >Rivinvaihto
+                </string>
+                <string name="scriptUpdating" >Päivitetään %1$s
+                </string>
+                <string name="rateScaleSummary" >Kerroin, jonka verran oletusnopeutta muutetaan
+                </string>
+                <string name="sendBacktracesSummary" >Lähetä kehittäjälle nimettömiä kaatumisilmoituksia automaattisesti Spielin kaatuessa (edellyttää uudelleenkäynnistystä)
+                </string>
+                <string name="link" >linkki
+                </string>
+                <string name="listWithItems" >lista jossa %1$s kohdetta
+                </string>
+                <string name="hapticFeedbackTitle" >Haptinen palaute
+                </string>
+                <string name="scriptUninstalling" >Poistetaan %1$s
+                </string>
+                <string name="notificationFiltersSummary" >Suodata ilmoitusmuutosten lukemista äänekkäissä sovelluksissa
+                </string>
+                <string name="colon" >kaksoispiste
+                </string>
+                <string name="portrait" >Pysty
+                </string>
+                <string name="listItem" >%1$s / %2$s
+                </string>
+                <string name="blank" >tyhjä
+                </string>
+                <string name="sendBacktracesTitle" >Lähetä virheenkorjaustietoja Spielin kaatuessa
+                </string>
+                <string name="word" >Sana
+                </string>
+                <string name="appName" >Spiel
+                </string>
+                <string name="enabledPlugins" >Käytettävät lisäosat
+                </string>
+                <string name="textToSpeechTitle" >Tekstistä puheeksi
+                </string>
+                <string name="echoByCharTitle" >Lue merkeittäin
+                </string>
+                <string name="item" >%1$s: 1 kohde
+                </string>
+                <string name="emptyList" >tyhjä lista
+                </string>
+                <string name="ringerOn" >Soittoääni käytössä
+                </string>
+                <string name="labeledButton" >%1$s: painike
+                </string>
+                <string name="caret" >hattu
+                </string>
+                <string name="radioButton" >valintapainike
+                </string>
+                <string name="at" >ät
+                </string>
+                <string name="checked" >valittu
+                </string>
+                <string name="sendCommandsDescription" >Lähetä puhetta tuottavia ja muita toimintoja suorittavia komentoja Spiel-ruudunlukuohjelmalle
+                </string>
+                <string name="ampersand" >ja
+                </string>
+                <string name="profilingSummary" >Ota käyttöön vain kehitystarkoituksessa, sillä tämä vaikuttaa suorituskykyyn!
+                </string>
+                <string name="cap" >iso %1$s
+                </string>
+                <string name="asterisk" >tähti
+                </string>
+                <string name="greaterThan" >suurempi
+                </string>
+                <string name="scripts" >Skriptit
+                </string>
+                <string name="stopSpeech" >Keskeytä puhe
+                </string>
+                <string name="percent" >prosentti
+                </string>
+                <string name="spielOff" >Spiel pois käytöstä
+                </string>
+                <string name="screenOff" >Näyttö pois käytöstä
+                </string>
+                <string name="welcomeMsg" >Tervetuloa Spieliin!
+                </string>
+                <string name="leftParen" >alkusulku
+                </string>
+                <string name="profilingTitle" >Profilointi
+                </string>
+                <string name="backslash" >keno
+                </string>
+                <string name="textToSpeechSummary" >Määritä järjestelmänlaajuiset tekstistä puheeksi -asetukset
+                </string>
+                <string name="unknown" >Tuntematon
+                </string>
+                <string name="voicemailAlertsSummary" >Ilmoittaa toistuvasti uusista ääniviesteistä
+                </string>
+                <string name="events" >Tapahtumat
+                </string>
+                <string name="quote" >lainaus
+                </string>
+                <string name="speechEngineTitle" >Puhemoottori
+                </string>
+                <string name="talkingCallerIDTitle" >Lue soittajan tiedot
+                </string>
+                <string name="slash" >kautta
+                </string>
+                <string name="underscore" >alaviiva
+                </string>
+                <string name="useBluetoothSCOSummary" >Reititä muut kuin puheluiden äänet  Bluetooth SCO -kuulokkeisiin (kokeellinen!)
+                </string>
+                <string name="pitchScaleSummary" >Kerroin, jonka verran oletuskorkeutta muutetaan
+                </string>
+                <string name="editText" >muokkaa tekstiä
+                </string>
+                <string name="appDescription" >Joustava ja skriptattava Android-ruudunlukuohjelma
+                </string>
+                <string name="charging" >akkua ladataan
+                </string>
+                <string name="password" >salasana
+                </string>
+                <string name="ringerVibrate" >Soittoääni: värinä
+                </string>
+                <string name="menuItem" >valikon kohde
+                </string>
+                <string name="managePunctuationSpeechTitle" >Hallitse välimerkkien puhumista
+                </string>
+                <string name="managePunctuationSpeechSummary" >Siirtää joidenkin käsittelemättömien välimerkkien puhumisen Spielille
+                </string>
+                <string name="rightParen" >loppusulku
+                </string>
+                <string name="refresh" >Päivitä
+                </string>
+                <string name="landscape" >Vaaka
+                </string>
+                <string name="pound" >punta
+                </string>
+                <string name="period" >piste
+                </string>
+                <string name="sendCommandsLabel" >Lähetä komentoja Spielille
+                </string>
+                <string name="tabWidget" >%1$s: välilehti
+                </string>
+                <string name="paragraph" >Kappale
+                </string>
+                <string name="delete" >Poista
+                </string>
+                <string name="echoByWordTitle" >Lue sanoittain
+                </string>
+                <string name="duckNonSpeechAudioTitle" >Alenna muun kuin puheen äänenvoimakkuutta
+                </string>
+                <string name="spielOn" >Spiel käytössä
+                </string>
+                <string name="items" >%1$s: %2$s kohdetta
+                </string>
+                <string name="notSelected" >ei valittu
+                </string>
+                <string name="questionMark" >kysymys
+                </string>
+                <string name="checkbox" >%1$s: valintaruutu
+                </string>
+                <string name="debuggingTitle" >Virheenkorjaus
+                </string>
+                <string name="page" >Sivu
+                </string>
+                <string name="templateCreationError" >Virhe luotaessa skriptin mallia.
+                </string>
+                <string name="comma" >pilkku
+                </string>
+                <string name="toggleSpiel" >Ottaa Spielin käyttöön tai poistaa sen käytöstä
+                </string>
+                <string name="newVoicemail" >Uusi ääniviesti
+                </string>
+                <string name="dash" >viiva
+                </string>
+                <string name="plus" >plus
+                </string>
+                <string name="lessThan" >pienempi
+                </string>
+                <string name="semiColon" >puolipiste
+                </string>
+                <string name="speakNotificationsWhenScreenOffTitle" >Lue ilmoitukset, vaikka näyttö on pois käytöstä
+                </string>
+                <string name="notificationFiltersTitle" >Ilmoitussuodattimet
+                </string>
+                <string name="character" >Merkki
+                </string>
+                <string name="alertsTitle" >Ilmoitukset
+                </string>
+                <string name="apostrophe" >heitto
+                </string>
+                <string name="pitchScaleTitle" >Korkeus
+                </string>
+                <string name="space" >väli
+                </string>
+                <string name="systemDefault" >Järjestelmän oletus
+                </string>
+                <string name="exclamation" >huuto
+                </string>
+            </file>
+            <file
+                path="C:\Users\user\Desktop\spiel\src\main\res\values-hr\strings.xml"
+                qualifiers="hr" >
+                <string name="useBluetoothSCOSummary" >Preusmjeri audio izvan poziva na Bluetooth SCO slušalice (eksperimentalno!)
+                </string>
+                <string name="useBluetoothSCOTitle" >Koristi Bluetooth SCO
+                </string>
+                <string name="listWithItems" >popis sadrži %1$s stavki
+                </string>
+                <string name="notificationFiltersSummary" >Filtriraj predstavljanje promjena obavijesti za bučne aplikacije
+                </string>
+                <string name="voicemailAlertsSummary" >Ponavljaj najavu o dostupnosti nove glasovne pošte
+                </string>
+                <string name="none" >Ništa
+                </string>
+                <string name="portrait" >Okomito
+                </string>
+                <string name="checkbox" >%1$s: potvrdni okvir
+                </string>
+                <string name="sendBacktracesTitle" >Šalji povratno praćenje kada se Spiel sruši
+                </string>
+                <string name="rateScaleSummary" >Faktor po kojem bi se zadana brzina govora trebala skalirati
+                </string>
+                <string name="image" >slika
+                </string>
+                <string name="appDescription" >Fleksibilan, skriptabilan čitač zaslona za Android
+                </string>
+                <string name="disabled" >onemogućeno
+                </string>
+                <string name="space" >razmak
+                </string>
+                <string name="radioButton" >izborni gumb
+                </string>
+                <string name="cap" >veliko %1$s
+                </string>
+                <string name="duckNonSpeechAudioSummary" >Smanji glasnoću glazbe, igrica itd. za vrijeme izgovaranja
+                </string>
+                <string name="checked" >označeno
+                </string>
+                <string name="password" >zaporka
+                </string>
+                <string name="managePunctuationSpeechTitle" >Upravljanje izgovaranjem interpunkcije
+                </string>
+                <string name="pound" >ljestve
+                </string>
+                <string name="notChecked" >nije označeno
+                </string>
+                <string name="comma" >zarez
+                </string>
+                <string name="newVoicemail" >Nova glasovna pošta
+                </string>
+                <string name="unknown" >Nepoznato
+                </string>
+                <string name="percent" >posto
+                </string>
+                <string name="screenOff" >Zaslon je isključen
+                </string>
+                <string name="labeledButton" >%1$s: gumb
+                </string>
+                <string name="greaterThan" >veće od
+                </string>
+                <string name="word" >Riječ
+                </string>
+                <string name="notSelected" >nije odabrano
+                </string>
+                <string name="link" >veza
+                </string>
+                <string name="questionMark" >upitnik
+                </string>
+                <string name="asterisk" >zvjezdica
+                </string>
+                <string name="item" >%1$s: 1 stavka
+                </string>
+                <string name="duckNonSpeechAudioTitle" >Smanji zvuk tijekom izgovora
+                </string>
+                <string name="speechTitle" >Govor
+                </string>
+                <string name="period" >točka
+                </string>
+                <string name="echoByWordTitle" >Odjek riječi
+                </string>
+                <string name="editText" >uređivanje teksta
+                </string>
+                <string name="landscape" >Vodoravno
+                </string>
+                <string name="ringerOn" >Zvonjenje je uključeno
+                </string>
+                <string name="pitchScaleTitle" >Ljestvica visine
+                </string>
+                <string name="charging" >puni se
+                </string>
+                <string name="menuItem" >stavka izbornika
+                </string>
+                <string name="ampersand" >end
+                </string>
+                <string name="spielOff" >Spiel je isključen
+                </string>
+                <string name="listItem" >%1$s od %2$s
+                </string>
+                <string name="rateScaleTitle" >Ljestvica brzine
+                </string>
+                <string name="profilingTitle" >Profiliranje
+                </string>
+                <string name="newline" >Novi red
+                </string>
+                <string name="profilingSummary" >Omogućujte samo za razvoj jer ovo utjeće na performanse!
+                </string>
+                <string name="line" >Redak
+                </string>
+                <string name="sendBacktracesSummary" >Automatsko slanje anonimnih izvješća o pogreškama razvojnom programeru svaki put kada se Spiel sruši (zahtijeva ponovno pokretanje)
+                </string>
+                <string name="sendCommandsLabel" >Šalji naredbe Spiel-u
+                </string>
+                <string name="emptyList" >prazan popis
+                </string>
+                <string name="caret" >znak za umetanje
+                </string>
+                <string name="rightParen" >desna zagrada
+                </string>
+                <string name="apostrophe" >apostrof
+                </string>
+                <string name="listWithItem" >popis sadrži jednu stavku
+                </string>
+                <string name="leftParen" >lijeva zagrada
+                </string>
+                <string name="textToSpeechTitle" >Postavke za tekst u govor
+                </string>
+                <string name="blank" >prazno
+                </string>
+                <string name="selected" >odabrano
+                </string>
+                <string name="hapticFeedbackSummary" >Šalji vibracije kad god se prijeđu granice widgeta
+                </string>
+                <string name="dollar" >dolar
+                </string>
+                <string name="rating" >Ocjena
+                </string>
+                <string name="colon" >dvotočka
+                </string>
+                <string name="settings" >Postavke
+                </string>
+                <string name="slash" >kroz
+                </string>
+                <string name="sendCommandsDescription" >Šalji naredbe za izvršavanje govora i drugih radnji Spiel čitaču zaslona
+                </string>
+                <string name="quote" >navodnik
+                </string>
+                <string name="plus" >plus
+                </string>
+                <string name="paragraph" >Odlomak
+                </string>
+                <string name="ringerOff" >Zvonjenje je isključeno
+                </string>
+                <string name="tabWidget" >%1$s: kartica
+                </string>
+                <string name="welcomeMsg" >Dobrodošli u Spiel!
+                </string>
+                <string name="talkingCallerIDTitle" >Izgovori ID pozivatelja
+                </string>
+                <string name="hapticFeedbackTitle" >Odziv vibracijom
+                </string>
+                <string name="underscore" >podcrtano
+                </string>
+                <string name="backslash" >obrnuto kroz
+                </string>
+                <string name="unlocked" >Otključano
+                </string>
+                <string name="speechEngineTitle" >Govorna jedinica
+                </string>
+                <string name="character" >Znak
+                </string>
+                <string name="pitchScaleSummary" >Faktor po kojem bi se zadana visina trebala skalirati
+                </string>
+                <string name="page" >Stranica
+                </string>
+                <string name="stopSpeech" >Zaustavi govor
+                </string>
+                <string name="debuggingTitle" >Uklanjanje grešaka
+                </string>
+                <string name="dash" >povlaka
+                </string>
+                <string name="echoByCharTitle" >Odjek znakova
+                </string>
+                <string name="exclamation" >uskličnik
+                </string>
+                <string name="at" >manki
+                </string>
+                <string name="appName" >Spiel
+                </string>
+                <string name="systemDefault" >Zadano sustavom
+                </string>
+                <string name="semiColon" >točka zarez
+                </string>
+                <string name="voicemailAlertsTitle" >Upozorenja o glasovnoj pošti
+                </string>
+                <string name="managePunctuationSpeechSummary" >Povjeri izgovaranje nekih od interpunkcijskih znakova Spiel-u
+                </string>
+                <string name="alertsTitle" >Upozorenja
+                </string>
+                <string name="enabledPlugins" >Omogućeni priključci
+                </string>
+                <string name="items" >%1$s: %2$s stavki
+                </string>
+                <string name="menu" >izbornik
+                </string>
+                <string name="textToSpeechSummary" >Postaviti svojstva za TTS širom sustava
+                </string>
+                <string name="button" >gumb
+                </string>
+                <string name="labeledImage" >%1$s: slika
+                </string>
+                <string name="tab" >tabulator
+                </string>
+                <string name="lessThan" >manje od
+                </string>
+                <string name="talkingCallerIDSummary" >Ponavljaj najavu pojedinosti za ID pozivatelja kod dolaznih poziva
+                </string>
+                <string name="notificationFiltersTitle" >Filtriranje obavijesti
+                </string>
+                <string name="speakNotificationsWhenScreenOffTitle" >Govori obavijesti čak i kada je zaslon isključen
+                </string>
+                <string name="ringerVibrate" >Zvonjenje je na vibraciji
+                </string>
+                <string name="toggleSpiel" >Naizmjence uključi ili isključi rad Spiel čitača zaslona
+                </string>
+                <string name="spielOn" >Spiel je uključen
+                </string>
+            </file>
+            <file
+                path="C:\Users\user\Desktop\spiel\src\main\res\values-hu\strings.xml"
+                qualifiers="hu" >
+                <string name="pitchScaleSummary" >a beszéd magasság arányát szabályozza
+                </string>
+                <string name="speechEngineTitle" >beszéd szintetizátor
+                </string>
+                <string name="rightParen" >jobbzárójel
+                </string>
+                <string name="confirmDelete" >Biztosan törölni szeretné a %1$s szkriptjeit?
+                </string>
+                <string name="voicemailAlertsSummary" >új hangposta ismételt figyelmeztetése
+                </string>
+                <string name="questionMark" >kérdőjel
+                </string>
+                <string name="apostrophe" >aposztróf
+                </string>
+                <string name="dash" >mínusz
+                </string>
+                <string name="ringerOff" >csengő kikapcsolva
+                </string>
+                <string name="blank" >üres
+                </string>
+                <string name="scripts" >Szkriptek
+                </string>
+                <string name="image" >kép
+                </string>
+                <string name="speakNotificationsWhenScreenOffTitle" >értesítések  kimondása képernyő zárolás után is
+                </string>
+                <string name="createScriptTemplateAction" >Szkript sablon készítése a legfrissebb hozzáférhetőségi eseményhez
+                </string>
+                <string name="rateScaleTitle" >sebesség arány
+                </string>
+                <string name="caret" >felfelé nyíl
+                </string>
+                <string name="ampersand" >és
+                </string>
+                <string name="checkbox" >%1$s: jelölőnégyzet
+                </string>
+                <string name="checked" >bejelölve
+                </string>
+                <string name="refresh" >újra ellenőrzés
+                </string>
+                <string name="pound" >szám
+                </string>
+                <string name="ringerOn" >csengő bekapcsolva
+                </string>
+                <string name="comma" >vessző
+                </string>
+                <string name="templateCreated" >a sablon a %1$s ben elkészült
+                </string>
+                <string name="events" >Események
+                </string>
+                <string name="exclamation" >felkíáltó jel
+                </string>
+                <string name="talkingCallerIDTitle" >beszélő hívófél-azonosító
+                </string>
+                <string name="textToSpeechSummary" >rendszer-terjedelmü szintetizátor tulajdonságainak beállítása
+                </string>
+                <string name="delete" >Törlés
+                </string>
+                <string name="lessThan" >kisebb
+                </string>
+                <string name="button" >gomb
+                </string>
+                <string name="spielOff" >Spiel kikapcsolva
+                </string>
+                <string name="plus" >plusz
+                </string>
+                <string name="backslash" >fordított per
+                </string>
+                <string name="radioButton" >választó gomb
+                </string>
+                <string name="voicemailAlertsTitle" >hangposta figyelmeztetések
+                </string>
+                <string name="talkingCallerIDSummary" >ismétli a hívófél-azonosító információt bejővő hívásokkor
+                </string>
+                <string name="labeledButton" >gomb
+                </string>
+                <string name="leftParen" >balzárójel
+                </string>
+                <string name="colon" >kettőspont
+                </string>
+                <string name="stopSpeech" >beszéd elnémítása
+                </string>
+                <string name="useBluetoothSCOTitle" >Bluetooth SCO használata
+                </string>
+                <string name="listItem" >%1$s per %2$s
+                </string>
+                <string name="slash" >per
+                </string>
+                <string name="managePunctuationSpeechSummary" >néhány küldötte írásjelet a Spiel fog kezelni
+                </string>
+                <string name="unlocked" >feloldva
+                </string>
+                <string name="sendBacktracesTitle" >visszajővő adatok elküldése, amikor a spiel lefagy
+                </string>
+                <string name="quote" >idézőjel
+                </string>
+                <string name="notChecked" >kijelölve
+                </string>
+                <string name="cap" >kap %1$s
+                </string>
+                <string name="newline" >újsor
+                </string>
+                <string name="spielOn" >Spiel Bekapcsolva
+                </string>
+                <string name="greaterThan" >nagyobb
+                </string>
+                <string name="semiColon" >pontosvessző
+                </string>
+                <string name="asterisk" >csillag
+                </string>
+                <string name="createScriptTemplate" >Szkript sablon készítése
+                </string>
+                <string name="space" >szóköz
+                </string>
+                <string name="speechTitle" >beszéd
+                </string>
+                <string name="sendBacktracesSummary" >Automatikus névtelen hibajelentések elküldése a fejlesztőnek, ha a Spiel lefagy (újraindítást igényel)
+                </string>
+                <string name="period" >pont
+                </string>
+                <string name="screenOff" >kijelző zárolva
+                </string>
+                <string name="alertsTitle" >figyelmeztetések
+                </string>
+                <string name="managePunctuationSpeechTitle" >Hangsúly beszéd szabályozása
+                </string>
+                <string name="echoByWordTitle" >szavak kiejtése
+                </string>
+                <string name="editText" >szerkeszthető mező
+                </string>
+                <string name="debuggingTitle" >Hibakeresés
+                </string>
+                <string name="password" >%1$s: Jelszó
+                </string>
+                <string name="dollar" >dollár
+                </string>
+                <string name="useBluetoothSCOSummary" >híváson kívüli audio átírányítása bluetooth  SCO ezközőkre
+                </string>
+                <string name="at" >kukac
+                </string>
+                <string name="emptyList" >üres lista
+                </string>
+                <string name="menu" >menü
+                </string>
+                <string name="pitchScaleTitle" >hangmagasság arány
+                </string>
+                <string name="echoByCharTitle" >karakterek kiejtése
+                </string>
+                <string name="textToSpeechTitle" >beszéd szintetizátor beállításai
+                </string>
+                <string name="welcomeMsg" >üdvözli a Spiel!
+                </string>
+                <string name="rateScaleSummary" >a sebesség arányát szabályozza
+                </string>
+                <string name="toggleSpiel" >A spiel engedélyezésének állítása
+                </string>
+                <string name="underscore" >aláhúzás
+                </string>
+                <string name="percent" >százalék
+                </string>
+                <string name="labeledImage" >Kép
+                </string>
+            </file>
+            <file
+                path="C:\Users\user\Desktop\spiel\src\main\res\values-nl\strings.xml"
+                qualifiers="nl" >
+                <string name="managePunctuationSpeechSummary" >Laat het uitspreken van enkele niet-ondersteunde leestekens over aan Spiel
+                </string>
+                <string name="menuItem" >menu-item
+                </string>
+                <string name="textToSpeechSummary" >Verander systeeminstellingen voor tekst-naar-spraak
+                </string>
+                <string name="talkingCallerIDSummary" >Naam van beller bij inkomend gesprek herhaald melden
+                </string>
+                <string name="duckNonSpeechAudioTitle" >Volume overig geluid aanpassen bij spreken
+                </string>
+                <string name="space" >spatie
+                </string>
+                <string name="dash" >streepje
+                </string>
+                <string name="plus" >plus
+                </string>
+                <string name="alertsTitle" >Meldingen
+                </string>
+                <string name="password" >wachtwoord
+                </string>
+                <string name="page" >Pagina
+                </string>
+                <string name="asterisk" >sterretje
+                </string>
+                <string name="semiColon" >puntkomma
+                </string>
+                <string name="dollar" >dollar
+                </string>
+                <string name="rating" >Beoordeling
+                </string>
+                <string name="checkbox" >%1$s: aankruisvakje
+                </string>
+                <string name="spielOn" >Spiel aan
+                </string>
+                <string name="voicemailAlertsTitle" >Voicemail meldingen
+                </string>
+                <string name="image" >afbeelding
+                </string>
+                <string name="labeledImage" >%1$s: afbeelding
+                </string>
+                <string name="blank" >leeg
+                </string>
+                <string name="period" >punt
+                </string>
+                <string name="speechTitle" >Spraak
+                </string>
+                <string name="hapticFeedbackSummary" >Trillen wanneer een ander element wordt aangeraakt
+                </string>
+                <string name="echoByWordTitle" >Getypte woorden uitspreken
+                </string>
+                <string name="rateScaleSummary" >Factor waarmee de standaardsnelheid moet worden vermenigvuldigd
+                </string>
+                <string name="ringerOff" >Belsignaal uit
+                </string>
+                <string name="scriptUninstalling" >De-installeren bezig van %1$s
+                </string>
+                <string name="refresh" >Vernieuwen
+                </string>
+                <string name="newVoicemail" >Nieuwe voicemail
+                </string>
+                <string name="createScriptTemplateAction" >Maak een scriptsjabloon voor de meest recente toegankelijkheidsgebeurtenis
+                </string>
+                <string name="appName" >Spiel
+                </string>
+                <string name="confirmDelete" >Weet u zeker dat u het script voor %1$s wilt verwijderen?
+                </string>
+                <string name="talkingCallerIDTitle" >Naam van beller uitspreken
+                </string>
+                <string name="useBluetoothSCOSummary" >Niet-gesprekgebonden geluid naar Bluetooth oortje leiden (experimenteel!)
+                </string>
+                <string name="scripts" >Scripts
+                </string>
+                <string name="items" >%1$s: %2$s items
+                </string>
+                <string name="disabled" >Niet beschikbaar
+                </string>
+                <string name="comma" >komma
+                </string>
+                <string name="lessThan" >kleiner dan
+                </string>
+                <string name="notificationFiltersSummary" >Filter het uitspreken van meldingen voor drukke applicaties
+                </string>
+                <string name="word" >Woord
+                </string>
+                <string name="appDescription" >Een flexibele, scriptbare screenreader voor Android
+                </string>
+                <string name="pitchScaleSummary" >Factor waarmee de standaard toonhoogte moet worden vermenigvuldigd
+                </string>
+                <string name="character" >Teken
+                </string>
+                <string name="duckNonSpeechAudioSummary" >Verlaag volume van muziek, spelletjes e.d. tijdens het spreken
+                </string>
+                <string name="underscore" >onderstreping
+                </string>
+                <string name="speechEngineTitle" >Spraaksynthesizer
+                </string>
+                <string name="questionMark" >vraagteken
+                </string>
+                <string name="percent" >procent
+                </string>
+                <string name="notificationFiltersTitle" >Notificatiefilters
+                </string>
+                <string name="pitchScaleTitle" >Toonhoogtefactor
+                </string>
+                <string name="debuggingTitle" >Foutopsporing
+                </string>
+                <string name="labeledButton" >%1$s: knop
+                </string>
+                <string name="greaterThan" >groter dan
+                </string>
+                <string name="radioButton" >keuzerondje
+                </string>
+                <string name="link" >link
+                </string>
+                <string name="templateCreationError" >Fout bij het maken van scriptsjabloon.
+                </string>
+                <string name="line" >Regel
+                </string>
+                <string name="backslash" >schuine streep naar achter
+                </string>
+                <string name="checked" >Aangekruist
+                </string>
+                <string name="leftParen" >haakje openen
+                </string>
+                <string name="quote" >aanhalingsteken
+                </string>
+                <string name="tab" >tab
+                </string>
+                <string name="textToSpeechTitle" >Tekst-naar-spraak instellingen
+                </string>
+                <string name="welcomeMsg" >Welkom bij Spiel!
+                </string>
+                <string name="slash" >slash
+                </string>
+                <string name="apostrophe" >apostrof
+                </string>
+                <string name="selected" >geselecteerd
+                </string>
+                <string name="item" >%1$s: 1 onderdeel
+                </string>
+                <string name="settings" >Instellingen
+                </string>
+                <string name="button" >knop
+                </string>
+                <string name="pound" >hekje
+                </string>
+                <string name="listWithItems" >lijst met %1$s items
+                </string>
+                <string name="systemDefault" >Standaardinstelling van systeem
+                </string>
+                <string name="templateCreated" >Sjabloon aangemaakt in %1$s.
+                </string>
+                <string name="rightParen" >haakje sluiten
+                </string>
+                <string name="newline" >nieuwe regel
+                </string>
+                <string name="events" >Gebeurtenissen
+                </string>
+                <string name="unlocked" >Ontgrendeld
+                </string>
+                <string name="delete" >Verwijderen
+                </string>
+                <string name="scriptInstalling" >%1$s installeren bezig...
+                </string>
+                <string name="none" >Geen
+                </string>
+                <string name="cap" >hoofdletter %1$s
+                </string>
+                <string name="createScriptTemplate" >Scriptsjabloon aanmaken
+                </string>
+                <string name="stopSpeech" >Spraak stoppen
+                </string>
+                <string name="tabWidget" >%1$s: tabblad
+                </string>
+                <string name="paragraph" >Alinea
+                </string>
+                <string name="exclamation" >uitroepteken
+                </string>
+                <string name="spielOff" >Spiel uit
+                </string>
+                <string name="menu" >menu
+                </string>
+                <string name="listWithItem" >lijst met 1 item
+                </string>
+                <string name="toggleSpiel" >Schakel Spiel in/uit
+                </string>
+                <string name="useBluetoothSCOTitle" >Gebruik Bluetooth SCO
+                </string>
+                <string name="notSelected" >niet geselecteerd
+                </string>
+                <string name="at" >apenstaartje
+                </string>
+                <string name="speakNotificationsWhenScreenOffTitle" >Meldingen voorlezen ook als het scherm uit is
+                </string>
+                <string name="editText" >tekstvak
+                </string>
+                <string name="sendBacktracesTitle" >Foutrapporten verzenden als Spiel vastloopt
+                </string>
+                <string name="colon" >dubbele punt
+                </string>
+                <string name="ringerOn" >Belsignaal aan
+                </string>
+                <string name="profilingSummary" >Alleen inschakelen voor ontwikkeldoeleinden; het beïnvloed de prestaties!
+                </string>
+                <string name="landscape" >Liggend
+                </string>
+                <string name="sendCommandsDescription" >Stuur commando\'s voor het uitvoeren van spraak en andere acties naar de Spiel screenreader
+                </string>
+                <string name="sendBacktracesSummary" >Automatisch verzenden van anonieme foutrapporten als Spiel vastloopt (herstart vereist)
+                </string>
+                <string name="profilingTitle" >Profileren
+                </string>
+                <string name="screenOff" >Scherm uit
+                </string>
+                <string name="rateScaleTitle" >Snelheidsfactor
+                </string>
+                <string name="portrait" >Staand
+                </string>
+                <string name="voicemailAlertsSummary" >Herhaaldelijk melden van nieuwe voicemails
+                </string>
+                <string name="scriptUpdating" >Bijwerken bezig van %1$s
+                </string>
+                <string name="unknown" >Onbekend
+                </string>
+                <string name="echoByCharTitle" >Getypte tekens uitspreken
+                </string>
+                <string name="ampersand" >en
+                </string>
+                <string name="listItem" >%1$s van %2$s
+                </string>
+                <string name="managePunctuationSpeechTitle" >Gesproken interpunctie beheren
+                </string>
+                <string name="emptyList" >blanco lijst
+                </string>
+                <string name="notChecked" >niet aangekruist
+                </string>
+                <string name="ringerVibrate" >Belsignaal trillen
+                </string>
+                <string name="caret" >dakje
+                </string>
+                <string name="charging" >Bezig met opladen
+                </string>
+                <string name="sendCommandsLabel" >Stuur commando\'s naar Spiel
+                </string>
+                <string name="hapticFeedbackTitle" >Trilfeedback
+                </string>
+            </file>
+            <file
+                path="C:\Users\user\Desktop\spiel\src\main\res\values-pl\strings.xml"
+                qualifiers="pl" >
+                <string name="disabled" >wyłączone
+                </string>
+                <string name="ringerOn" >Dzwonek włączony
+                </string>
+                <string name="textToSpeechTitle" >Ustawienia tekstu na mowę
+                </string>
+                <string name="listWithItems" >lista z %1$s elementami
+                </string>
+                <string name="hapticFeedbackTitle" >Wibracje
+                </string>
+                <string name="voicemailAlertsTitle" >Powiadomienia o wiadomościach głosowych
+                </string>
+                <string name="line" >Linia
+                </string>
+                <string name="lessThan" >mniejsze
+                </string>
+                <string name="spielOff" >Spiel wyłączony
+                </string>
+                <string name="listWithItem" >lista z jednym elementem
+                </string>
+                <string name="space" >spacja
+                </string>
+                <string name="link" >link
+                </string>
+                <string name="echoByWordTitle" >echo słów
+                </string>
+                <string name="questionMark" >pytajnik
+                </string>
+                <string name="unknown" >Nieznany
+                </string>
+                <string name="tabWidget" >%1$s: zakładka
+                </string>
+                <string name="enabledPlugins" >Włączone wtyczki
+                </string>
+                <string name="button" >przycisk
+                </string>
+                <string name="sendCommandsDescription" >Wysyłaj polecenia wykonywania akcji mowy oraz innych do Spiela
+                </string>
+                <string name="managePunctuationSpeechTitle" >Zarządzaj wypowiadaniem interpunkcji
+                </string>
+                <string name="profilingTitle" >Profilowanie
+                </string>
+                <string name="blank" >puste
+                </string>
+                <string name="image" >obraz
+                </string>
+                <string name="landscape" >Poziomo
+                </string>
+                <string name="menuItem" >element menu
+                </string>
+                <string name="password" >hasło
+                </string>
+                <string name="systemDefault" >domyślny systemu
+                </string>
+                <string name="textToSpeechSummary" >Ustaw globalne właściwości TTS
+                </string>
+                <string name="labeledButton" >%1$s: przycisk
+                </string>
+                <string name="voicemailAlertsSummary" >Ogłaszaj i powtarzaj informację o dostępności nowej wiadomości na poczcie głosowej
+                </string>
+                <string name="speakNotificationsWhenScreenOffTitle" >Mów powiadomienia nawet gdy ekran jest wyłączony
+                </string>
+                <string name="checkbox" >%1$s: pole wyboru
+                </string>
+                <string name="rateScaleSummary" >czynnik wpływający na skalę prędkości syntezy mowy
+                </string>
+                <string name="spielOn" >Spiel włączony
+                </string>
+                <string name="rating" >ocena
+                </string>
+                <string name="portrait" >Pionowo
+                </string>
+                <string name="colon" >dwókropek
+                </string>
+                <string name="talkingCallerIDSummary" >Ogłaszaj i powtarzaj szczegóły dotyczące dzwoniącego przy rozmowach przychodzących
+                </string>
+                <string name="unlocked" >Odblokowano
+                </string>
+                <string name="pitchScaleSummary" >czynnik wpływający na skalowanie wysokości syntezy mowy
+                </string>
+                <string name="page" >Strona
+                </string>
+                <string name="speechEngineTitle" >Mechanizm syntezatora mowy
+                </string>
+                <string name="appName" >Spiel
+                </string>
+                <string name="sendBacktracesTitle" >Wysyłaj ślady gdy Spiel zostanie nieoczekiwanie zamknięty
+                </string>
+                <string name="dash" >myślnik
+                </string>
+                <string name="echoByCharTitle" >Echo znaków
+                </string>
+                <string name="talkingCallerIDTitle" >Mówiąca identyfikacja dzwoniącego
+                </string>
+                <string name="managePunctuationSpeechSummary" >Przekaż Spielowi odczytywanie pewnych nieobsługiwanych znaków przestankowych
+                </string>
+                <string name="checked" >zaznaczone
+                </string>
+                <string name="greaterThan" >większe
+                </string>
+                <string name="plus" >plus
+                </string>
+                <string name="hapticFeedbackSummary" >Emituj wibracje gdy granice widgetów są osiągnięte
+                </string>
+                <string name="welcomeMsg" >Witaj w Spiel!
+                </string>
+                <string name="caret" >karetka
+                </string>
+                <string name="leftParen" >lewy nawias
+                </string>
+                <string name="underscore" >podkreślenie
+                </string>
+                <string name="radioButton" >przycisk opcji
+                </string>
+                <string name="semiColon" >średnik
+                </string>
+                <string name="screenOff" >Ekran wyłączony
+                </string>
+                <string name="duckNonSpeechAudioTitle" >Złagodzenie dźwięku nie będącego mową
+                </string>
+                <string name="percent" >procent
+                </string>
+                <string name="quote" >cudzysłów
+                </string>
+                <string name="editText" >edytuj tekst
+                </string>
+                <string name="character" >Znak
+                </string>
+                <string name="notificationFiltersTitle" >Filtry powiadomień
+                </string>
+                <string name="cap" >duże %1$s
+                </string>
+                <string name="pitchScaleTitle" >skala wysokości
+                </string>
+                <string name="charging" >ładowanie
+                </string>
+                <string name="ringerVibrate" >Dzwonek wibrujący
+                </string>
+                <string name="slash" >slesz
+                </string>
+                <string name="ringerOff" >Dzwonek wyłączony
+                </string>
+                <string name="apostrophe" >apostrof
+                </string>
+                <string name="alertsTitle" >Powiadomienia
+                </string>
+                <string name="pound" >funt
+                </string>
+                <string name="comma" >przecinek
+                </string>
+                <string name="sendBacktracesSummary" >Uruchom ponownie
+                </string>
+                <string name="asterisk" >gwiazdka
+                </string>
+                <string name="dollar" >dolar
+                </string>
+                <string name="stopSpeech" >Wstrzymaj mowę
+                </string>
+                <string name="rightParen" >"prawy  nawias"
+                </string>
+                <string name="newVoicemail" >Nowa wiadomość głosowa
+                </string>
+                <string name="menu" >menu
+                </string>
+                <string name="profilingSummary" >Włącz tylko jeżeli planujesz programowanie jako, że wpływa to na wydajność!
+                </string>
+                <string name="listItem" >%1$s z %2$s
+                </string>
+                <string name="useBluetoothSCOSummary" >Przekieruj dźwięk inny niż rozmowy przez słuchawki bluetooth SCO (eksperymentalne!)
+                </string>
+                <string name="period" >kropka
+                </string>
+                <string name="rateScaleTitle" >Skala prędkości
+                </string>
+                <string name="selected" >wybrane
+                </string>
+                <string name="emptyList" >pusta lista
+                </string>
+                <string name="notificationFiltersSummary" >Filtruj prezentację zmian powiadomień dla hałaśliwych aplikacji
+                </string>
+                <string name="exclamation" >wykrzyknik
+                </string>
+                <string name="none" >brak
+                </string>
+                <string name="tab" >tabulator
+                </string>
+                <string name="speechTitle" >Mowa
+                </string>
+                <string name="toggleSpiel" >Ustal czy Spiel powinien być włączony czy wyłączony
+                </string>
+                <string name="newline" >nowa linia
+                </string>
+                <string name="settings" >Ustawienia
+                </string>
+                <string name="duckNonSpeechAudioSummary" >Sciszaj dźwięk muzyki, gier itd. podczas mówienia
+                </string>
+                <string name="at" >małpa
+                </string>
+                <string name="appDescription" >Elastyczny, skryptowalny program odczytu ekranu dla systemu Android
+                </string>
+                <string name="notSelected" >niewybrane
+                </string>
+                <string name="backslash" >bekslesz
+                </string>
+                <string name="items" >%1$s: %2$s elementów
+                </string>
+                <string name="paragraph" >Akapit
+                </string>
+                <string name="useBluetoothSCOTitle" >Używaj Bluetooth SCO
+                </string>
+                <string name="debuggingTitle" >Debugowanie
+                </string>
+                <string name="item" >%1$s: 1 element
+                </string>
+                <string name="ampersand" >and
+                </string>
+                <string name="word" >Słowo
+                </string>
+                <string name="labeledImage" >%1$s: obraz
+                </string>
+                <string name="sendCommandsLabel" >Wysyłaj polecenia do Spiela
+                </string>
+                <string name="notChecked" >niezaznaczone
+                </string>
+            </file>
+            <file
+                path="C:\Users\user\Desktop\spiel\src\main\res\values-pt\strings.xml"
+                qualifiers="pt" >
+                <string name="delete" >Apagar
+                </string>
+                <string name="colon" >dois pontos
+                </string>
+                <string name="labeledImage" >%1$s: imagem
+                </string>
+                <string name="blank" >em branco
+                </string>
+                <string name="questionMark" >interrogação
+                </string>
+                <string name="plus" >mais
+                </string>
+                <string name="dash" >hífen
+                </string>
+                <string name="listItem" >%1$s de %2$s
+                </string>
+                <string name="settings" >Ajustes
+                </string>
+                <string name="debuggingTitle" >Depuração
+                </string>
+                <string name="duckNonSpeechAudioTitle" >Decrescer áudio que não a fala
+                </string>
+                <string name="scriptUpdating" >Atualizando %1$s
+                </string>
+                <string name="scriptInstalling" >Instalando %1$s
+                </string>
+                <string name="stopSpeech" >Parar fala
+                </string>
+                <string name="selected" >selecionado
+                </string>
+                <string name="items" >%1$s: %2$s itens
+                </string>
+                <string name="sendBacktracesSummary" >Envia automaticamente ao desenvolvedor relatórios anônimos de erro quando o Spiel trava (requer reinicialização)
+                </string>
+                <string name="checked" >marcado
+                </string>
+                <string name="tab" >tab
+                </string>
+                <string name="echoByCharTitle" >Falar por caractere
+                </string>
+                <string name="listWithItem" >lista com 1 item
+                </string>
+                <string name="voicemailAlertsTitle" >Alertas de correio de voz
+                </string>
+                <string name="events" >Eventos
+                </string>
+                <string name="pitchScaleSummary" >Fator pelo qual o tom padrão deve ser medido
+                </string>
+                <string name="rateScaleTitle" >Medida de velocidade
+                </string>
+                <string name="labeledButton" >%1$s: botão
+                </string>
+                <string name="pitchScaleTitle" >Medida de tom
+                </string>
+                <string name="button" >botão
+                </string>
+                <string name="refresh" >Atualizar
+                </string>
+                <string name="scriptUninstalling" >Desinstalando %1$s
+                </string>
+                <string name="notSelected" >não selecionado
+                </string>
+                <string name="profilingSummary" >Abilite somente para desenvolvimento pois tem impacto no desempenho!
+                </string>
+                <string name="caret" >circunflexo
+                </string>
+                <string name="useBluetoothSCOSummary" >Direcionar áudio fora da chamada para os fones de ouvido Bluetooth SCO (experimental!)
+                </string>
+                <string name="leftParen" >abre parênteses
+                </string>
+                <string name="rating" >Classificação
+                </string>
+                <string name="greaterThan" >maior
+                </string>
+                <string name="newline" >Linha nova
+                </string>
+                <string name="tabWidget" >%1$s: guia
+                </string>
+                <string name="speechTitle" >Fala
+                </string>
+                <string name="appName" >Spiel
+                </string>
+                <string name="appDescription" >Leitor de telas flexível e scriptável para Android
+                </string>
+                <string name="charging" >Carregando
+                </string>
+                <string name="editText" >texto editável
+                </string>
+                <string name="notificationFiltersSummary" >Filtra exibição de mudanças em notificações de aplicativos incômodos
+                </string>
+                <string name="ringerOn" >Campainha ligada
+                </string>
+                <string name="talkingCallerIDTitle" >ID de chamadas falado
+                </string>
+                <string name="slash" >barra
+                </string>
+                <string name="sendCommandsLabel" >Enviar comandos ao Spiel
+                </string>
+                <string name="radioButton" >botão de opção
+                </string>
+                <string name="spielOff" >Spiel desligado
+                </string>
+                <string name="link" >linque
+                </string>
+                <string name="scripts" >Scripts
+                </string>
+                <string name="percent" >por cento
+                </string>
+                <string name="landscape" >Paisagem
+                </string>
+                <string name="line" >Linha
+                </string>
+                <string name="asterisk" >asterisco
+                </string>
+                <string name="voicemailAlertsSummary" >Repadicamente anuncia existência de novo correio de voz
+                </string>
+                <string name="createScriptTemplateAction" >Criar modelo de script para o evento de acessibilidade mais recente
+                </string>
+                <string name="quote" >aspas
+                </string>
+                <string name="duckNonSpeechAudioSummary" >Abaixa volume de música, jogos, etc. enquanto fala
+                </string>
+                <string name="word" >Palavra
+                </string>
+                <string name="notificationFiltersTitle" >Filtros de notificação
+                </string>
+                <string name="pound" >libra
+                </string>
+                <string name="echoByWordTitle" >Falar por palavra
+                </string>
+                <string name="confirmDelete" >Tem certeza que deseja apagar o script para o pacote %1$s?
+                </string>
+                <string name="checkbox" >%1$s: caixa de seleção
+                </string>
+                <string name="notChecked" >não marcado
+                </string>
+                <string name="managePunctuationSpeechTitle" >Gerir fala de pontuação
+                </string>
+                <string name="ringerOff" >Campainha desligada
+                </string>
+                <string name="item" >%1$s: 1 item
+                </string>
+                <string name="dollar" >cifrão
+                </string>
+                <string name="enabledPlugins" >Plug-ins abilitados
+                </string>
+                <string name="comma" >vírgula
+                </string>
+                <string name="menuItem" >item de menu
+                </string>
+                <string name="newVoicemail" >Novo correio de voz
+                </string>
+                <string name="systemDefault" >Padrão do sistema
+                </string>
+                <string name="textToSpeechSummary" >Determina propriedades de TTS do sistema como um todo
+                </string>
+                <string name="portrait" >Retrato
+                </string>
+                <string name="talkingCallerIDSummary" >Repaticamente anuncia detalhes de ID para chamadas recebidas
+                </string>
+                <string name="character" >Caractere
+                </string>
+                <string name="createScriptTemplate" >Criar modelo de script
+                </string>
+                <string name="sendCommandsDescription" >Envia comandos de falar e executar outras ações ao leitor de telas Spiel
+                </string>
+                <string name="at" >arroba
+                </string>
+                <string name="screenOff" >Tela desligada
+                </string>
+                <string name="sendBacktracesTitle" >Enviar backtraces quando o Spiel travar
+                </string>
+                <string name="period" >ponto
+                </string>
+                <string name="password" >senha
+                </string>
+                <string name="semiColon" >ponto e vírgula
+                </string>
+                <string name="emptyList" >lista vazia
+                </string>
+                <string name="useBluetoothSCOTitle" >Usar Bluetooth SCO
+                </string>
+                <string name="none" >Nenhum
+                </string>
+                <string name="ampersand" >e comercial
+                </string>
+                <string name="ringerVibrate" >Vibratório
+                </string>
+                <string name="hapticFeedbackTitle" >Vibração por toque
+                </string>
+                <string name="menu" >menu
+                </string>
+                <string name="rightParen" >fecha parênteses
+                </string>
+                <string name="profilingTitle" >Procura automática de erros
+                </string>
+                <string name="space" >espaço
+                </string>
+                <string name="managePunctuationSpeechSummary" >Delega a fala de algumas pontuações não processadas ao Spiel
+                </string>
+                <string name="spielOn" >Spiel ligado
+                </string>
+                <string name="backslash" >barra invertida
+                </string>
+                <string name="toggleSpiel" >Alterna entre deixar e não deixar o Spiel abilitado
+                </string>
+                <string name="apostrophe" >apóstrofo
+                </string>
+                <string name="disabled" >desabilitado
+                </string>
+                <string name="unlocked" >Desbloqueada
+                </string>
+                <string name="templateCreationError" >Houve um erro ao criar o modelo de script.
+                </string>
+                <string name="rateScaleSummary" >Fator pelo qual a velocidade padrão deve ser medida
+                </string>
+                <string name="welcomeMsg" >Bem-vindo ao Spiel!
+                </string>
+                <string name="cap" >cap %1$s
+                </string>
+                <string name="speechEngineTitle" >Mecanismo de fala
+                </string>
+                <string name="hapticFeedbackSummary" >Emite vibrações ao cruzar as bordas de widgets
+                </string>
+                <string name="listWithItems" >lista com %1$s itens
+                </string>
+                <string name="templateCreated" >Modelo criado em %1$s.
+                </string>
+                <string name="image" >imagem
+                </string>
+                <string name="lessThan" >menor
+                </string>
+                <string name="underscore" >sublinhado
+                </string>
+                <string name="paragraph" >Parágrafo
+                </string>
+                <string name="page" >Página
+                </string>
+                <string name="exclamation" >exclamação
+                </string>
+                <string name="unknown" >Desconhecido
+                </string>
+                <string name="textToSpeechTitle" >Ajustes de texto para fala
+                </string>
+                <string name="speakNotificationsWhenScreenOffTitle" >Falar notificações mesmo quando a tela se encontra desligada
+                </string>
+                <string name="alertsTitle" >Alertas
+                </string>
+            </file>
+            <file
+                path="C:\Users\user\Desktop\spiel\src\main\res\values-ru\strings.xml"
+                qualifiers="ru" >
+                <string name="tabWidget" >%1$s: вкладка
+                </string>
+                <string name="debuggingTitle" >Отладка
+                </string>
+                <string name="createScriptTemplateAction" >Создать шаблон скрипта для последнего события доступности
+                </string>
+                <string name="link" >ссылка
+                </string>
+                <string name="image" >изображение
+                </string>
+                <string name="portrait" >Портретная
+                </string>
+                <string name="line" >Строка
+                </string>
+                <string name="labeledButton" >%1$s кнопка
+                </string>
+                <string name="menuItem" >пункт меню
+                </string>
+                <string name="word" >Слово
+                </string>
+                <string name="leftParen" >левая круглая
+                </string>
+                <string name="period" >точка
+                </string>
+                <string name="scriptUpdating" >Обновление %1$s
+                </string>
+                <string name="checkbox" >%1$s флажок
+                </string>
+                <string name="backslash" >бэкслэш
+                </string>
+                <string name="dollar" >доллар
+                </string>
+                <string name="password" >пароль
+                </string>
+                <string name="at" >собака
+                </string>
+                <string name="talkingCallerIDSummary" >Объявлять с повторением сообщения автоматического определителя номера во время входящего звонка
+                </string>
+                <string name="asterisk" >звёздочка
+                </string>
+                <string name="landscape" >Альбомная
+                </string>
+                <string name="managePunctuationSpeechTitle" >Настройка объявления пунктуации
+                </string>
+                <string name="paragraph" >Параграф
+                </string>
+                <string name="item" >%1$s: 1 элемент
+                </string>
+                <string name="createScriptTemplate" >Создать шаблон скрипта
+                </string>
+                <string name="newVoicemail" >Новая голосовая почта
+                </string>
+                <string name="space" >пробел
+                </string>
+                <string name="voicemailAlertsTitle" >Уведомления автоответчика
+                </string>
+                <string name="useBluetoothSCOTitle" >Использовать Bluetooth SCO
+                </string>
+                <string name="hapticFeedbackSummary" >Вибрировать всякий раз, как пересекаются границы виджетов
+                </string>
+                <string name="comma" >запятая
+                </string>
+                <string name="echoByWordTitle" >Озвучивать ввод по словам
+                </string>
+                <string name="sendBacktracesTitle" >Отправлять обратную трассировку при сбое Spiel
+                </string>
+                <string name="none" >Ничего
+                </string>
+                <string name="charging" >зарядка
+                </string>
+                <string name="managePunctuationSpeechSummary" >Передать Spiel объявление некоторой необрабатываемой пунктуации
+                </string>
+                <string name="textToSpeechTitle" >Настройки синтеза речи
+                </string>
+                <string name="scripts" >Скрипты
+                </string>
+                <string name="greaterThan" >больше
+                </string>
+                <string name="profilingTitle" >Профилирование
+                </string>
+                <string name="stopSpeech" >Остановить речь
+                </string>
+                <string name="speechTitle" >Речь
+                </string>
+                <string name="lessThan" >меньше
+                </string>
+                <string name="scriptInstalling" >Установка %1$s
+                </string>
+                <string name="notChecked" >не отмечено
+                </string>
+                <string name="refresh" >Обновить
+                </string>
+                <string name="radioButton" >радиокнопка
+                </string>
+                <string name="percent" >процент
+                </string>
+                <string name="rating" >Прогресс
+                </string>
+                <string name="sendBacktracesSummary" >Автоматически отправлять анонимные отчёты об ошибках при каждом сбое Spiel (требует перезапуска)
+                </string>
+                <string name="newline" >Перевод строки
+                </string>
+                <string name="menu" >меню
+                </string>
+                <string name="notificationFiltersTitle" >Фильтры уведомлений
+                </string>
+                <string name="notificationFiltersSummary" >Фильтр отображения уведомлений изменения для шумных приложений
+                </string>
+                <string name="unlocked" >Разблокировано
+                </string>
+                <string name="rateScaleTitle" >Шкала скорости
+                </string>
+                <string name="semiColon" >точка с запятой
+                </string>
+                <string name="sendCommandsDescription" >Отправлять команды для осуществления речи и других действий программе экранного доступа Spiel
+                </string>
+                <string name="hapticFeedbackTitle" >Виброотклик
+                </string>
+                <string name="confirmDelete" >Вы действительно хотите удалить скрипт для пакета %1$s?
+                </string>
+                <string name="caret" >крышка
+                </string>
+                <string name="button" >кнопка
+                </string>
+                <string name="checked" >отмечено
+                </string>
+                <string name="speakNotificationsWhenScreenOffTitle" >Объявлять уведомления, даже когда экран выключен
+                </string>
+                <string name="welcomeMsg" >Добро пожаловать в Spiel!
+                </string>
+                <string name="scriptUninstalling" >Удаление %1$s
+                </string>
+                <string name="labeledImage" >%1$s изображение
+                </string>
+                <string name="page" >Страница
+                </string>
+                <string name="talkingCallerIDTitle" >Говорящий АОН
+                </string>
+                <string name="systemDefault" >Система по умолчанию
+                </string>
+                <string name="character" >Символ
+                </string>
+                <string name="cap" >большая %1$s
+                </string>
+                <string name="selected" >выделено
+                </string>
+                <string name="rateScaleSummary" >Коэффициент, на который будет увеличена скорость по умолчанию
+                </string>
+                <string name="underscore" >подчёркивание
+                </string>
+                <string name="settings" >Настройки
+                </string>
+                <string name="speechEngineTitle" >Речевой движок
+                </string>
+                <string name="plus" >плюс
+                </string>
+                <string name="pitchScaleTitle" >Шкала высоты голоса
+                </string>
+                <string name="echoByCharTitle" >Озвучивать ввод по символам
+                </string>
+                <string name="profilingSummary" >Включать только для разработки, поскольку это воздействует на производительность!
+                </string>
+                <string name="dash" >тире
+                </string>
+                <string name="pitchScaleSummary" >Коэффициент, на который будет увеличена высота голоса по умолчанию
+                </string>
+                <string name="sendCommandsLabel" >Отправлять команды Spiel
+                </string>
+                <string name="quote" >кавычки
+                </string>
+                <string name="blank" >пусто
+                </string>
+                <string name="rightParen" >правая круглая
+                </string>
+                <string name="duckNonSpeechAudioTitle" >Приглушать неречевое аудио
+                </string>
+                <string name="voicemailAlertsSummary" >Уведомлять с повторением о новых доступных сообщениях автоответчика
+                </string>
+                <string name="textToSpeechSummary" >Настройка свойств синтеза речи для всей системы
+                </string>
+                <string name="slash" >слэш
+                </string>
+                <string name="appName" >Spiel
+                </string>
+                <string name="colon" >двоеточие
+                </string>
+                <string name="listItem" >%1$s из %2$s
+                </string>
+                <string name="notSelected" >не выделено
+                </string>
+                <string name="questionMark" >вопросительный
+                </string>
+                <string name="ringerVibrate" >Виброзвонок
+                </string>
+                <string name="useBluetoothSCOSummary" >Перенаправлять аудио, не относящееся к вызовам, на наушники Bluetooth SCO (на этапе испытаний!)
+                </string>
+                <string name="ampersand" >амперсанд
+                </string>
+                <string name="duckNonSpeechAudioSummary" >Уменьшать громкость музыки, игр и т. д. во время речевых сообщений
+                </string>
+                <string name="events" >События
+                </string>
+                <string name="editText" >редактор
+                </string>
+                <string name="toggleSpiel" >Включить или выключить Spiel
+                </string>
+                <string name="ringerOff" >Звонок выключен
+                </string>
+                <string name="pound" >решётка
+                </string>
+                <string name="appDescription" >Гибкая программа экранного доступа для операционной системы Android с возможностью скриптования
+                </string>
+                <string name="spielOff" >Spiel выключен
+                </string>
+                <string name="ringerOn" >Звонок включён
+                </string>
+                <string name="unknown" >Номер не определён
+                </string>
+                <string name="disabled" >недоступно
+                </string>
+                <string name="templateCreated" >Шаблон создан в %1$s.
+                </string>
+                <string name="tab" >табуляция
+                </string>
+                <string name="spielOn" >Spiel включён
+                </string>
+                <string name="listWithItem" >список с 1 элементом
+                </string>
+                <string name="emptyList" >пустой список
+                </string>
+                <string name="screenOff" >Экран выключен
+                </string>
+                <string name="enabledPlugins" >Включенные плагины
+                </string>
+                <string name="listWithItems" >список с %1$s элементами
+                </string>
+                <string name="templateCreationError" >Во время создания шаблона произошла ошибка.
+                </string>
+                <string name="exclamation" >восклицательный
+                </string>
+                <string name="alertsTitle" >Уведомления
+                </string>
+                <string name="apostrophe" >апостроф
+                </string>
+                <string name="items" >%1$s: %2$s элементов
+                </string>
+                <string name="delete" >Удалить
+                </string>
+            </file>
+            <file
+                path="C:\Users\user\Desktop\spiel\src\main\res\values-sv\strings.xml"
+                qualifiers="sv" >
+                <string name="backslash" >bakåtsnedsträck
+                </string>
+                <string name="events" >Händelser
+                </string>
+                <string name="greaterThan" >större än
+                </string>
+                <string name="quote" >citationstecken
+                </string>
+                <string name="speakNotificationsWhenScreenOffTitle" >Läs notifieringar även när skärmen är avstängd
+                </string>
+                <string name="leftParen" >vänsterparentes
+                </string>
+                <string name="speechTitle" >Tal
+                </string>
+                <string name="pitchScaleTitle" >Tonläge.
+                </string>
+                <string name="ringerOn" >Ringer på
+                </string>
+                <string name="rateScaleTitle" >Hastighet
+                </string>
+                <string name="useBluetoothSCOTitle" >Använd Bluetooth SCO
+                </string>
+                <string name="unlocked" >Upplåst.
+                </string>
+                <string name="checked" >kryssad
+                </string>
+                <string name="rightParen" >högerparentes
+                </string>
+                <string name="radioButton" >radioknapp
+                </string>
+                <string name="textToSpeechTitle" >Text till talinställningar
+                </string>
+                <string name="dash" >bindesträck
+                </string>
+                <string name="screenOff" >Skärm släckt.
+                </string>
+                <string name="plus" >plus
+                </string>
+                <string name="percent" >procent
+                </string>
+                <string name="spielOff" >Spiel av
+                </string>
+                <string name="comma" >komma
+                </string>
+                <string name="semiColon" >semikolon
+                </string>
+                <string name="asterisk" >stjärna
+                </string>
+                <string name="lessThan" >mindre än
+                </string>
+                <string name="slash" >snedsträck
+                </string>
+                <string name="emptyList" >tom lista
+                </string>
+                <string name="underscore" >understräck
+                </string>
+                <string name="colon" >kolon
+                </string>
+                <string name="notChecked" >ej kryssad
+                </string>
+                <string name="space" >mellanslag
+                </string>
+                <string name="managePunctuationSpeechTitle" >Hantera interpunktionsuppläsning
+                </string>
+                <string name="ampersand" >och
+                </string>
+                <string name="speechEngineTitle" >Talsyntes
+                </string>
+                <string name="ringerOff" >Ringer av
+                </string>
+                <string name="button" >knapp
+                </string>
+                <string name="checkbox" >%1$s: kryssruta
+                </string>
+                <string name="refresh" >Uppdatera
+                </string>
+                <string name="echoByCharTitle" >Skriveko Tecken
+                </string>
+                <string name="at" >snabela
+                </string>
+                <string name="newline" >ny rad
+                </string>
+                <string name="spielOn" >Spiel på
+                </string>
+                <string name="welcomeMsg" >Välkommen till Spiel!
+                </string>
+                <string name="blank" >blank
+                </string>
+                <string name="period" >punkt
+                </string>
+                <string name="questionMark" >frågetecken
+                </string>
+                <string name="sendBacktracesSummary" >Skicka automatiskt anonyma felrapporter till utvecklaren när Spiel kraschar (kräver omstart)
+                </string>
+                <string name="scripts" >Scripts
+                </string>
+                <string name="onShakeTitle" >Vid skakning
+                </string>
+                <string name="dollar" >dollar
+                </string>
+                <string name="voicemailAlertsTitle" >Notiser för rösteddelanden
+                </string>
+                <string name="echoByWordTitle" >Skriveko Ord
+                </string>
+                <string name="menu" >meny
+                </string>
+                <string name="password" >%1$s: lösenord
+                </string>
+                <string name="apostrophe" >apostrof
+                </string>
+                <string name="pound" >pund
+                </string>
+                <string name="onShakeSummary" >Knyta en funktion som utförs när enheten skakas
+                </string>
+                <string name="delete" >Radera
+                </string>
+                <string name="confirmDelete" >Är du säker på att du vill ta bort scriptet för paketet %1$s?
+                </string>
+                <string name="exclamation" >utropstecken
+                </string>
+                <string name="image" >%1$s: bild
+                </string>
+                <string name="cap" >stor %1$s
+                </string>
+                <string name="alertsTitle" >Varningar
+                </string>
+            </file>
+            <file
+                path="C:\Users\user\Desktop\spiel\src\main\res\values-uk\strings.xml"
+                qualifiers="uk" >
+                <string name="menu" >Меню
+                </string>
+                <string name="welcomeMsg" >Вас вітає Спіл!
+                </string>
+                <string name="spielOff" >Спіл виключено
+                </string>
+                <string name="notChecked" >не перевірено
+                </string>
+                <string name="textToSpeechTitle" >Настройки голосових модулів
+                </string>
+                <string name="spielOn" >Спіл увімкнено
+                </string>
+                <string name="radioButton" >радіоКнопка
+                </string>
+                <string name="password" >пароль
+                </string>
+                <string name="speechTitle" >Розмовляюча програма
+                </string>
+                <string name="speechEngineTitle" >Голосовий модуль
+                </string>
+            </file>
+            <file
+                name="accessibilityservice"
+                path="C:\Users\user\Desktop\spiel\src\main\res\xml\accessibilityservice.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="alerts"
+                path="C:\Users\user\Desktop\spiel\src\main\res\xml\alerts.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="debugging"
+                path="C:\Users\user\Desktop\spiel\src\main\res\xml\debugging.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="preference_headers"
+                path="C:\Users\user\Desktop\spiel\src\main\res\xml\preference_headers.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="speech"
+                path="C:\Users\user\Desktop\spiel\src\main\res\xml\speech.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+    </dataSet>
+
+</merger>

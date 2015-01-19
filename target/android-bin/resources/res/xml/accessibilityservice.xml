@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+  android:accessibilityEventTypes="typeAllMask"
+  android:accessibilityFeedbackType="feedbackSpoken|feedbackAudible"
+  android:notificationTimeout="0"
+  android:accessibilityFlags="flagDefault|flagReportViewIds|flagRequestEnhancedWebAccessibility|flagRequestFilterKeyEvents|flagRequestTouchExplorationMode|"
+  android:canRetrieveWindowContent="true"
+  android:canRequestFilterKeyEvents="true"
+  android:canRequestEnhancedWebAccessibility="true"
+  android:canRequestTouchExplorationMode="true"
+  android:settingsActivity=".ui.Settings"
+  android:description="@string/appDescription"/>
+<!-- From: file:/C:/Users/user/Desktop/spiel/src/main/res/xml/accessibilityservice.xml -->
