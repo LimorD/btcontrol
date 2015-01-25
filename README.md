@@ -4,7 +4,12 @@ Building Spiel requires [SBT](http://scala-sbt.org/). Start by [downloading the 
 
 Once SBT is successfully installed, you can work with the code in a number of ways. SBT can either be used as a normal command line tool by invoking it like so ("$ " indicates an OS shell):
 
-$ sbt apk
+$ sbt android:package
+
+or
+
+$ sbt android:package debug
+
 
 You can run SBT without command line arguments and are then dropped into an SBT shell which supports all the commands directly, without needing a prefix. You can also precede any SBT commands with a "~" to rerun the specified action when any changes are made to the source. For instance, Running the following ("> " indicates an SBT shell):
 
@@ -20,6 +25,6 @@ This leaves a target/spiel*.apk file ready to be installed to your device or emu
 
 If you have a device plugged in and recognized by _adb_, you can also run:
 
-$ sbt install
+$ sbt android:install
 
 to build the app and to install the package directly. If Spiel is already running, it will be restarted automatically.
